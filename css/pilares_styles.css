@@ -8,16 +8,19 @@ h2{
 	 color: #0c7332;
 }
 
+/*Text styles and background options for Tecnología e Infraestructura*/
 .Tec_and_inf{
 	width: 100%;
 	text-align: inherit;
 }
 
+/*Text styles and background options for Sistemas de Calidad*/
 .Sis_de_cal{
 	width: 100%;
 	text-align: inherit;
 }
 
+/*Text styles and background options for Nuestra Gente*/
 .Nue_gen{
 	width: 100%;
 	text-align: inherit;
