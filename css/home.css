@@ -410,6 +410,12 @@ body {
     display: flex;
     flex-direction: row;
   }
+  .busqueda_header{
+    height: 6vh;
+  }
+  .bloque_aliados{
+    height: 32vh;
+  }
   .bloque_menu {
     display: none;
   }
@@ -471,14 +477,14 @@ body {
   }
   .bloque_tecnologia2{
     display: flex;
-    height: 33.2vh;
+    height: 36.2vh;
   }
   .bloque_Quienes{
     display: none;
   }
   .bloque_Quienes2{
     display: flex;
-    height: 33.2vh;
+    height: 35.2vh;
   }
   .bloque_footer {
     height: 17vh;
