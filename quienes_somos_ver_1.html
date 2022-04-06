@@ -2,13 +2,23 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
 	  <title>Quienes Somos</title>
 	  <link href="images/logo_pirineos.png" rel="shortcut icon" type="image/png">
+		  <script src="js/index_s.js" type="text/JavaScript"></script>
 	  <link rel="stylesheet" type="text/css" href="css/boxes.css">
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 <body>
-
+	<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="Productos.html">Harinas de Trigo</a>
+    <a href="Productos.html">Harinas Preparadas BakeryMix®</a>
+    <a href="Productos.html">Harinas de Trigo para el Hogar</a>
+    <a href="Productos.html">Derivados de trigo</a>
+    <a href="Productos.html">Mejorantes RendiMix®</a>
+    <a href="Productos.html">Contacto</a>
+</div>
 	<form class="busqueda_header">
 				<!--BARRA DE BUSQUEDA-->
 					<div class="bloque_barra">
@@ -23,6 +33,9 @@
 	<!-- Menu y Logo-->
 	<div class="header"><!--align="center"-->
 				<!-- IMAGEN LOGO-->
+				<div class = "menu_b">
+		      <span  class = "icon_menu" onclick="openNav()">&#9776;</span>
+		    </div>
 				<div class="bloque_logo">
           <a href="index.html">
             <img class="logo_header" src="images/logo.png"/>
