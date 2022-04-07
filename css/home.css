@@ -404,7 +404,7 @@ body {
 }
 
 /*980px*/
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width:980px){
   .header {
     height: 10vh;
     width: 100%;
@@ -524,126 +524,15 @@ body {
     text-decoration: none;
     color: white;
   }
+  .bloque_general_productos {
+    float: left;
+    height: auto;
+    background-color: #f4f4f4;
 }
-
-@media only screen and (max-width: 420px) {
-  .header {
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-  .busqueda_header{
-    height: 4vh;
-    width: 100%;
-    background-color: #009538;
-    padding: 1% 0;
-    display: flex;
-    flex-direction: row;
-  }
-  .call_text_container {
-    padding: 0.5% 2.5%;
-    font-family: verdana;
-    font-weight: bold;
-    font-size: 85%;
-    font-size: 9px;
+.bloque_presentacion_productos {
+    float: left;
+    width: 75%;
+    background-color: #f4f4f4;
+    height: 100%;
 }
-.bloque_barra {
-  width: 69%;
-  padding: 6px 0;
-  text-align: center;
-  margin-left: 12%;
-}
-  .bloque_aliados{
-    height: 36vh;
-  }
-  .bloque_menu {
-    display: none;
-  }
-  .bloque_logo{
-    max-width: 60%;
-    padding-left: 6%;
-  }
-  .menu_b{
-    display: block;
-      width: 15%;
-      padding: 0 0 2px 3%;
-      margin-top: auto;
-      margin-bottom: auto;
-      text-align: left;
-  }
-  .logo_header{
-    width: 90%;
-    display: block;
-    margin-left: 7%;
-    margin-right: auto;
-  }
-  .slideshow-container{
-    width: 84%;
-    padding: 3.5% 3%;
-    font-size: 13px;
-  }
-  .tech_text_container{
-    max-width: 100%
-  }
-  .bloque_tecnologia{
-    display: none;
-  }
-  .tech_text_box{
-    background-color: #ffffff91;
-    width: 100%;
-    text-align: center;
-    height: 90%;
-  }
-  .titulo_tecnologia{
-    font-size: 100%;
-    padding: 0 4%;
-    padding-top: 1%;
-    margin-bottom: 1%;
-  }
-  .line_div_horizontal_tec {
-    height: 1%;
-    width: 10%;
-    border-bottom: 4px solid #fdcc00;
-    padding: 0 0 0 0;
-    margin-left: 6%;
-  }
-  .texto_tecnologia{
-    font-size: 71%;
-    text-align: center;
-    padding: 1%;
-  }
-  .imagen_tecnologia_con{
-    display: none;
-  }
-  .bloque_tecnologia2{
-    display: flex;
-    height: 36.2vh;
-  }
-  .bloque_Quienes{
-    display: none;
-  }
-  .bloque_Quienes2{
-    display: flex;
-    height: 35.2vh;
-  }
-  .bloque_footer {
-    height: 23vh;
-    background-color: #194629;
-    font-family: verdana;
-    color: white;
-    display: flex;
-    flex-direction: row;
-  }
-  .titulos_footer {
-    font-size: 10px;
-    text-align: left;
-  }
-  .texto_footer {
-    font-size: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    color: white;
-  }
 }
