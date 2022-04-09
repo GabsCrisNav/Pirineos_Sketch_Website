@@ -36,6 +36,7 @@
 	margin-bottom: 50px;
 }
 
+/*text tittle changes the style of the title for the webpage*/
 .text_tittle{
 	height: 100%;
     background-color: #009538;
@@ -44,6 +45,7 @@
     color: white;
 }
 
+/*tittle box changes the style for the box/background containing the title for the web page*/
 .tittle_box{
 	background-color: #009538;
   margin: 0;
