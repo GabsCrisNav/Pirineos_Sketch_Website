@@ -1,12 +1,12 @@
-/*Change to class because it can cause trauble with other p*/
-p{
+/*Change to class because it can cause trauble with other p::::: was p, is now word_style, im assuming changes the word styles for regular words*/
+.word_style{
 	width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*Change to class beacause it can cause trobule with other h2*/
-h2{
+/*Change to class beacause it can cause trobule with other h2:::::was h2, is now heading_style, changes the style for h2*/
+.heading_style{
 	 color: #0c7332;
 }
 
