@@ -1,0 +1,42 @@
+.recetario_gen_box{
+  margin: auto;
+  height: 950px;
+  width: 90%;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.receta_box{
+  height:280px;
+  width: 50%;
+  float: left;
+}
+
+.receta_links_box{
+  margin-left: 40px;
+  width: 60%;
+}
+
+.receta_box_ulti{
+  height:350px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.titulo_producto{
+  color: #ABD037;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.link_receta{
+  color: green;
+  margin: auto;
+}
+
+.ejemplo_receta{
+  margin-right: 20px;
+  width: 45%;
+  height:300px;
+}
