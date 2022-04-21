@@ -305,6 +305,17 @@ a{
   width: 80%;
 }
 
+/*The style for the words in the related product section*/
+.rec_prod_style{
+  color: "White";
+  size: 4pt;
+}
+
+/*The style for the images in the related product section*/
+.rec_prod_image{
+  width: 80px;
+}
+
 /*Crea el espacio para la barra lateral donde se encontrarán los pdf de los productos así como links a productos relaciones y las redes sociales de la empresa*/
 .scroll{
   float: right;
