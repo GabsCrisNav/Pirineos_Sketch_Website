@@ -361,7 +361,7 @@ div#pdf_producto_marco_arriba{
 
 /*Estilización del link de productos relacionados*/
 #pdf_productos_relacionados{
-  margin-top: 5vh;
+  margin-top: 0.5px;
   display: block;
 }
 
