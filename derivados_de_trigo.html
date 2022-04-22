@@ -21,17 +21,17 @@
 </div>
 
   <!-- Barra de bússqeda e iconos-->
-  <form class="busqueda_header">
+  <form class="busqueda_header" method="GET" >
         <!--BARRA DE BUSQUEDA-->
           <div class="bloque_barra">
-            <input type="text" placeholder="Buscar..." class="barra_busqueda">
+            <input  name="search_text" type="text" placeholder="Buscar..." class="barra_busqueda" />
+            <input type="submit"  value="Submit" onClick="search_input(this.form)"hidden >
           </div>
           <div class="call_text_container"><span class = "y_text_call">Llama ahora: </span><span class = "w_text_call">01 800 464 9600</span></div>
           <a class="fa fa-facebook-square"></a>
           <a class="fa fa-instagram"></a>
           <a class="fa fa-pinterest"></a>
   </form>
-
   <!-- Menu y Logo-->
   <div class="header"><!--align="center"-->
     <div class = "menu_b">
