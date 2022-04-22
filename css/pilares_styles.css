@@ -338,6 +338,13 @@ body {
     color: white;
 		text-align: justify;
   }
+  .grid_quarter {
+    width: 15%
+    padding: 10px
+  }
+  .text_nuestra {
+    height: 400px
+  }
 }
 /*----------------------------------------------------------------------------*/
 .sidenav {
@@ -448,6 +455,13 @@ body {
     text-decoration: none;
     color: white;
   }
+  .grid_quarter {
+    width: 15%
+    padding: 10px
+  }
+  .text_nuestra {
+    height: 400px
+  }
 }
 
 @media only screen and (max-width: 420px) {
@@ -520,6 +534,13 @@ body {
     flex-wrap: wrap;
     text-decoration: none;
     color: white;
+  }
+  .grid_quarter {
+    width: 13%
+    padding: 10px
+  }
+  .text_nuestra {
+    height: 350px
   }
 }
 
