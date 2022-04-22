@@ -545,10 +545,12 @@ body {
 
 /*Grid de 4 elementos*/
 .grid_quarter{
+  margin: 0 auto;
+	overflow: hidden;
   float: left;
   width: 23%;
 	padding:15px;
-	height: 100%;
+	height: auto;
 	font-size: 12pt;
 	text-align: justify;
 }
