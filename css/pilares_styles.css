@@ -568,7 +568,7 @@ body {
 .grid_quarter{
   margin: 0 auto;
 	overflow: hidden;
-  /*float: left;*/
+  float: left;
   width: 23%;
 	padding:15px;
 	height: auto;
