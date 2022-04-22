@@ -12,7 +12,7 @@ const hogar=["harinas para el hogar", "harina de trigo san antonio","san antonio
 const derivados = ["derivados de trigo", "granillo de trigo","germen de trigo", "salvado de trigo", "salvadillo de trigo","salvado de trigo uso forrajero", "salvado de trigo para uso forrajero"];
 const rendimix = ["rendimix","harina", "harina panadera", "harina rendidora","mejorante","mejorantes"];
 const contacto = ["contacto","distribuidores","direcciones","bolsa de trabajo","trabajo"];
-const tecno = ["tecnologia","tecnología","equipo","equipos", "laboratorio", "investigacion", "investigación","tratamientos","centros de distribucion", "centros de distribución", "centro de distribucion","calidad", "formacion", "formación","agricultura","apoyos","escolarizacion","escolarización"];
+const tecno = ["tecnologia","tecnología","equipo","equipos","laboratorios","laboratorio", "investigacion", "investigación","tratamientos","centros de distribucion", "centros de distribución", "centro de distribucion","calidad", "formacion", "formación","agricultura","apoyos","escolarizacion","escolarización"];
 const quienes = ["quienes somos","grupo moderna","los pirineos", "grupo la moderna", "moderna", "pirineos", "harinera los pirineos","segmentos de produccion","produccion","producción","evolución","evolucion"];
 function search_input (form) {
     const userInput = form.search_text.value;
