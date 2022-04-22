@@ -23,31 +23,32 @@
 	    <a href="#">Contacto</a>
 	</div>
 	<!-- Barra de bússqeda e iconos-->
-		<form class="busqueda_header">
-			<!--BARRA DE BUSQUEDA-->
-				<div class="bloque_barra">
-					<input id="search_text" type="text" placeholder="Buscar..." class="barra_busqueda" >
-				</div>
-				<div class="call_text_container"><span class = "y_text_call">Llama ahora: </span><span class = "w_text_call">01 800 464 9600</span></div>
-				<a class="fa fa-facebook-square"></a>
-				<a class="fa fa-instagram"></a>
-				<a class="fa fa-pinterest"></a>
-		</form>
+	<form class="busqueda_header" method="GET" >
+        <!--BARRA DE BUSQUEDA-->
+          <div class="bloque_barra">
+            <input  name="search_text" type="text" placeholder="Buscar..." class="barra_busqueda" />
+            <input type="submit"  value="Submit" onClick="search_input(this.form)"hidden >
+          </div>
+          <div class="call_text_container"><span class = "y_text_call">Llama ahora: </span><span class = "w_text_call">01 800 464 9600</span></div>
+          <a class="fa fa-facebook-square"></a>
+          <a class="fa fa-instagram"></a>
+          <a class="fa fa-pinterest"></a>
+  	</form>
 
-		<!-- Menu y Logo-->
-		<div class="header"><!--align="center"-->
-			<div class = "menu_b">
-	      <span  class = "icon_menu" onclick="openNav()">&#9776;</span>
-	    </div>
+	<!-- Menu y Logo-->
+	<div class="header"><!--align="center"-->
+	<div class = "menu_b">
+	 <span  class = "icon_menu" onclick="openNav()">&#9776;</span>
+	 </div>
       		<!-- IMAGEN LOGO-->
-					<div class="bloque_logo">
+		<div class="bloque_logo">
 	          <a href="index.html">
 	            <img class="logo_header" src="images/logo.png"/>
 	          </a>
 	        </div>
 
       		<!-- MENU PRINCIPAL-->
-					<nav class="bloque_menu" >
+		<nav class="bloque_menu" >
 	          <a href="Productos.html" class="titulo_menu" style = "padding: 6% 3% 5% 3%;">Harinas de Trigo</a><div class="line_div"></div>
 	          <a href="Productos.html" class="titulo_menu" style = "padding: 5% 3% 5% 3%;">Harinas Preparadas BakeryMix®</a><div class="line_div"></div>
 	          <a href="harinas_para_el_hogar.html" class="titulo_menu" style = "padding: 5% 3% 5% 3%;">Harinas de Trigo para el Hogar</a><div class="line_div"></div>
