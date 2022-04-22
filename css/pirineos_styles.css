@@ -612,3 +612,6 @@ Optimize for medium devices, from 450px to 980px
     height: 100%;
   }
 }
+.list_q_s{
+  margin-left:15%;
+}
