@@ -236,7 +236,7 @@ body {
 
 /*Technology Text*/
 .texto_tecnologia{
-  text-align: left;
+  text-align: justify;
   margin-bottom: 5%;
 }
 
@@ -311,7 +311,7 @@ body {
 
 /*Text How we are*/
 .texto_how{
-  text-align: left;
+  text-align: justify;
   margin-bottom: 5%;
   color: white;
 }
