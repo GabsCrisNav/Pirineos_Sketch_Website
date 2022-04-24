@@ -167,7 +167,7 @@ body {
 /*Allies info*/
 /*Allies container*/
 .bloque_aliados{
-  height: 25vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   flex-direction: row;
