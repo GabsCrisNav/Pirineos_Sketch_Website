@@ -1,16 +1,28 @@
 .recetario_gen_box{
-  margin: auto;
-  height: 950px;
+  display: flex;
+  flex-wrap: wrap;
   width: 90%;
+  height: auto;
+  margin:  auto;
   margin-bottom: 1vh;
   margin-top: 1vh;
   background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  justify-content: center;
+}
+
+.recetario_title{
+  width: 70%;
+  height: 12vh;
+  text-align: center;
 }
 
 .receta_box{
-  height:280px;
-  width: 50%;
+  align-content: center;
+  height:auto;
+  width: 70%;
   float: left;
+  margin-bottom: 5vh;
 }
 
 .receta_links_box{
