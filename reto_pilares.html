@@ -5,31 +5,31 @@
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
 	<title>Nuestros Tres Grandes Pilares</title>
 	<link href="images/logo.png" rel="shortcut icon" type="image/png">
-		<link href="css/home.css" rel="stylesheet" type="text/css">
-		<link href="css/pilares_styles.css" rel="stylesheet" type="text/css">
+	<link href="css/home.css" rel="stylesheet" type="text/css">
+	<link href="css/pilares_styles.css" rel="stylesheet" type="text/css">
 		  <script src="js/index_s.js" type="text/JavaScript"></script>
 			<script src="js/java_search.js" type="text/JavaScript"></script>
 
 	<!-- lIBRERIA DE ICONOS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body><center>
-	<div id="mySidenav" class="sidenav">
-	 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="Productos.html">Harinas de Trigo</a>
-		<a href="Productos.html">Harinas Preparadas BakeryMix®</a>
-		<a href="harinas_para_el_hogar.html">Harinas de Trigo para el Hogar</a>
-		<a href="derivados_de_trigo.html">Derivados de trigo</a>
-		<a href="Productos_RendiMix.html">Mejorantes RendiMix®</a>
-		<a href="#">Contacto</a>
+	<body><center>
+		<div id="mySidenav" class="sidenav">
+	    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	    <a href="Productos.html">Harinas de Trigo</a>
+	    <a href="Productos.html">Harinas Preparadas BakeryMix®</a>
+	    <a href="harinas_para_el_hogar.html">Harinas de Trigo para el Hogar</a>
+	    <a href="derivados_de_trigo.html">Derivados de trigo</a>
+	    <a href="Productos_RendiMix.html">Mejorantes RendiMix®</a>
+	    <a href="#">Contacto</a>
 	</div>
 	<!-- Barra de bússqeda e iconos-->
 	<form class="busqueda_header" method="GET" >
         <!--BARRA DE BUSQUEDA-->
-        <div class="bloque_barra">
+          <div class="bloque_barra">
             <input  name="search_text" type="text" placeholder="Buscar..." class="barra_busqueda" />
             <input type="submit"  value="Submit" onClick="search_input(this.form)"hidden >
-       </div>
+          </div>
           <div class="call_text_container"><span class = "y_text_call">Llama ahora: </span><span class = "w_text_call">01 800 464 9600</span></div>
           <a class="fa fa-facebook-square"></a>
           <a class="fa fa-instagram"></a>
@@ -59,58 +59,58 @@
 	        </nav>
 		</div>
 
-		<!-- SLIDER -->
-		  <div class="bloque_slider">
-		      <section class="section_slider">
-			<div class="slider_pirineos">
-			  <div class="slide_pirineos">
-			    <input type="radio" name="radio-btn" id="radio1" checked>
-			    <input type="radio" name="radio-btn" id="radio2">
-			    <input type="radio" name="radio-btn" id="radio3">
-			    <input type="radio" name="radio-btn" id="radio4">
+		<!-- Banner -->
+	  <div class="bloque_slider">
+	      <section class="section_slider">
+	        <div class="slider_pirineos">
+	          <div class="slide_pirineos">
+	            <input type="radio" name="radio-btn" id="radio1" checked>
+	            <input type="radio" name="radio-btn" id="radio2">
+	            <input type="radio" name="radio-btn" id="radio3">
+	            <input type="radio" name="radio-btn" id="radio4">
 
-			    <div class="slider_img first">
-			      <img src="images/banner_home.png">
-			    </div>
-			    <div class="slider_img">
-			      <img src="images/banner_home_2.jpg">
-			    </div>
-			    <div class="slider_img">
-			      <img src="images/banner_home_3.jpg">
-			    </div>
-			    <div class="slider_img">
-			      <img src="images/banner_home_4.jpg">
-			    </div>
+	            <div class="slider_img first">
+	              <img src="images/banner_home.png">
+	            </div>
+	            <div class="slider_img">
+	              <img src="images/banner_home_2.jpg">
+	            </div>
+	            <div class="slider_img">
+	              <img src="images/banner_home_3.jpg">
+	            </div>
+	            <div class="slider_img">
+	              <img src="images/banner_home_4.jpg">
+	            </div>
 
-			    <div class="nav-auto">
-			      <div class="a-b1"></div>
-			      <div class="a-b2"></div>
-			      <div class="a-b3"></div>
-			      <div class="a-b4"></div>
-			    </div>
-			  </div>
+	            <div class="nav-auto">
+	              <div class="a-b1"></div>
+	              <div class="a-b2"></div>
+	              <div class="a-b3"></div>
+	              <div class="a-b4"></div>
+	            </div>
+	          </div>
 
-			  <div class="nav-m">
-			    <label for="radio1" class="m-btn"></label>
-			    <label for="radio2" class="m-btn"></label>
-			    <label for="radio3" class="m-btn"></label>
-			    <label for="radio4" class="m-btn"></label>
-			  </div>
-			</div>
-		      </section>
+	          <div class="nav-m">
+	            <label for="radio1" class="m-btn"></label>
+	            <label for="radio2" class="m-btn"></label>
+	            <label for="radio3" class="m-btn"></label>
+	            <label for="radio4" class="m-btn"></label>
+	          </div>
+	        </div>
+	      </section>
 
-		      <script type="text/javascript">
-			var counter=1;
-			setInterval(function(){
-			  document.getElementById('radio' + counter).checked=true;
-			  counter++;
-			  if(counter > 4){
-			    counter = 1;
-			  }
-			},6000);
-		      </script>
-		  </div>
-	
+	      <script type="text/javascript">
+	        var counter=1;
+	        setInterval(function(){
+	          document.getElementById('radio' + counter).checked=true;
+	          counter++;
+	          if(counter > 4){
+	            counter = 1;
+	          }
+	        },6000);
+	      </script>
+	  </div>
+	  
 		<div class = "we_container">
 		<!--Pilares Section -->
 		<div class = "tittle_box">
