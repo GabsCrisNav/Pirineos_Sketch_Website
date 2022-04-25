@@ -1,10 +1,15 @@
+
+
 /*Body style*/
 body {
   width: 100%;
   height: 100%;
   align-content: center;
   margin: 0;
+
 }
+
+
 /*----------------------------------------------------------------------------*/
 /*Search bar*/
 /*Search header*/
@@ -154,8 +159,8 @@ body {
 /*----------------------------------------------------------------------------*/
 /*Banner*/
 .bloque_slider{
-  width: 100%;
-  height: auto;
+  max-width: 100%;
+  height: 52vH;
 }
 
 .section_slider{
@@ -168,15 +173,15 @@ body {
 
 .slider_pirineos{
   width: 100%;
-  height: 500px;
-  border-radius: 10px;
+  height: 100%;
   overflow: hidden;
 }
 
 .slide_pirineos{
   width: 500%;
-  height: 500px;
+  height: 100%;
   display: flex;
+
 }
 
 .slide_pirineos input{
@@ -189,15 +194,15 @@ body {
 }
 
 .slider_img img{
-  width: 100%px;
-  height: 500px;
+  width: 100%;
+  height: 52vH;
 }
 
 
 .nav-m{
   position: absolute;
   width: 100%;
-  margin-top: -40px;
+  margin-top: -5vH;
   justify-content: center;
   display: flex;
 }
@@ -238,7 +243,7 @@ body {
 .nav-auto{
   position: absolute;
   width: 100%;
-  margin-top: 460px;
+  margin-top: 47.5vh;
   display: flex;
   justify-content: center;
 }
@@ -252,7 +257,7 @@ body {
 
 .nav-auto div:not(:last-child){
   margin-right: 30px;
-  justify-content: cneter;
+  justify-content: center;
 }
 
 #radio1:checked ~ .nav-auto .a-b1{
@@ -275,7 +280,7 @@ body {
 /*Allies info*/
 /*Allies container*/
 .bloque_aliados{
-  height: 50vh;
+  height: 47vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -284,6 +289,7 @@ body {
 
 /*Tittle Allies*/
 .titulo_aliadosyquienes{
+
   font-weight: bold;
   font-family: verdana;
   color: white;
@@ -297,7 +303,7 @@ body {
 
 /*Allies text*/
 .texto_aliados{
-  width: 45%;
+  width: 100%;
   height: auto;
 }
 
@@ -313,10 +319,19 @@ body {
 
 /*Slideshow Allies*/
 .slideshow-container{
-  margin-top: 10px;
+  padding:15%;
   float: right;
-  width: 40%;
-   padding: 0.5% 5%
+  width: 100%;
+  padding: 0.5% 5%
+}
+
+.video{
+  margin-top:4%;
+  float:right;
+  width:90%;
+  height:40vh;
+  align-items: center;
+
 }
 
 /*----------------------------------------------------------------------------*/
@@ -325,7 +340,7 @@ body {
 .bloque_tecnologia{
   display: flex;
   flex-direction: row;
-  height: 51.2vh;
+  height: 52.2vh;
   background-color: #EAEAEA;
 
 }
@@ -365,7 +380,9 @@ body {
 
 /*Tech images*/
 .imagen_tecnologia{
-  max-width: 100%;
+  width: 100%;
+  height:100%;
+  box-sizing: border-box;
 }
 
 /*Link technology button*/
@@ -391,7 +408,7 @@ body {
 .bloque_Quienes{
   display: flex;
   flex-direction: row;
-  height: 51.2vh;
+  height: 52.2vh;
   background-color: #009538;
 }
 
@@ -428,7 +445,7 @@ body {
 /*Footer*/
 /*Footer container*/
 .bloque_footer{
-  height: 45vh;
+  height: 30vh;
   background-color: #194629;
   font-family: verdana;
   color: white;
@@ -524,7 +541,7 @@ Optimize for medium devices, from 450px to 980px
 @media only screen and (max-width:980px){
   /*Adjust the header container*/
   .header {
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -532,7 +549,7 @@ Optimize for medium devices, from 450px to 980px
 
   /*Adjust the search header*/
   .busqueda_header{
-    height: 4vh;
+    height: 5vh;
     width: 100%;
     background-color: #009538;
     padding: 1% 0;
@@ -549,7 +566,7 @@ Optimize for medium devices, from 450px to 980px
     font-size: 9px;
   }
 
-  /*Adlust the search bar*/
+    /*Adlust the search bar*/
   .bloque_barra {
     width: 69%;
     padding: 6px 0;
@@ -559,8 +576,11 @@ Optimize for medium devices, from 450px to 980px
 
   /*Ajust the allies block*/
   .bloque_aliados{
-    height: 26vh;
+    height: 22vh;
   }
+
+  .titulo_aliadosyquienes{
+    font-size: 16pt;}
 
   /*Disapears the original menu*/
   .bloque_menu {
@@ -598,15 +618,68 @@ Optimize for medium devices, from 450px to 980px
     font-size: 13px;
   }
 
+  .bloque_slider{
+    max-width: 100%;
+    height: 20vH;
+  }
+
+  .slider_img{
+    height: 20vH;
+    width: 20%;
+    transition: 2s;
+  }
+
+  .slider_img img{
+    width: 100%;
+    height: 20vH;
+  }
+
+  .nav-m{
+    position: absolute;
+    width: 100%;
+    margin-top: -3vH;
+    justify-content: center;
+    display: flex;
+  }
+
+  .m-btn{
+    border: 2px solid green;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 17vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-auto div{
+    border: 2px solid grey;
+    padding: 3px;
+    border-radius: 5px;
+    transition: 1s;
+  }
+
   /*Adjust the text technology container*/
   .tech_text_container{
     max-width: 100%
+  }
+
+  .video{
+    width:100%;
+    height:15vh;
   }
 
   /*Disapears the tecnology block for computers*/
   .bloque_tecnologia{
     display: none;
   }
+
 
   /*Change the color of the background of the text*/
   .tech_text_box{
@@ -636,8 +709,8 @@ Optimize for medium devices, from 450px to 980px
   /*Change the size of the tecnology text*/
   .texto_tecnologia{
     font-size: 71%;
-    text-align: center;
     padding: 1%;
+    text-align: justify;
   }
 
   /*Disapears the image of tecnology*/
@@ -645,10 +718,14 @@ Optimize for medium devices, from 450px to 980px
     display: none;
   }
 
+  .link_tec{
+    font-size: 10pt;
+  }
+
   /*Appears the block for maobile devices*/
   .bloque_tecnologia2{
     display: flex;
-    height: 36.2vh;
+    height: 33vh;
   }
 
   /*Disapear the How we are block for computers*/
@@ -659,12 +736,12 @@ Optimize for medium devices, from 450px to 980px
   /*Display the How we are block for mobile devices*/
   .bloque_Quienes2{
     display: flex;
-    height: 35.2vh;
+    height: 30vh;
   }
 
   /*Ajust the footer container*/
   .bloque_footer {
-    height: 23vh;
+    height: 18vh;
     background-color: #194629;
     font-family: verdana;
     color: white;
