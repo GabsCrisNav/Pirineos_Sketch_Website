@@ -24,11 +24,6 @@ h1{
   color: #285d39;
 }
 
-h2{
-  color: #285d39;
-  font-size: 14pt;
-}
-
 a{
   text-decoration: none;
 }
@@ -413,7 +408,7 @@ a#pdf_productos_relacionados:hover{
   }
 
   .texto_producto2{
-    font-size:14pt;
+    font-size:16pt;
     text-align: justify;
   }
 
@@ -434,4 +429,3 @@ a#pdf_productos_relacionados:hover{
   .rec_prod_image{
     width: 20%;
   }
-  
