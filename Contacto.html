@@ -108,7 +108,7 @@
   </div>
 
   <!--CONTACTO-->
-  <div style="background-image: url('images/fondo_formulario.jpg');">
+    <div style="background-image: url('images/fondo_formulario.jpg');">
     <div class="bloque_mapa_contacto">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7472.737254582819!2d-101.091889!3d20.532093000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57460b27468d2901!2sHARINERA%20LOS%20PIRINEOS!5e0!3m2!1ses-419!2smx!4v1650093154928!5m2!1ses-419!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
@@ -121,17 +121,17 @@
   			<p class="texto_contacto">+52 (464) 642 01 96<br>Sin costo: 01 800 147 4444</p><br><br>
   		</div>
   		<div class="bloque_formulario">
-  			<form class="formulario"><!---INTENTO DE HACER ENVIO DE CORREO CON PHP---- action="enviar.php" method="post"--->
+  			<form class="formulario" action="enviar-prueba.php" method="post">
   				<br><br><p class="titulos_contacto"><b>Contáctanos</b></p>
   				<p class="texto_contacto">Para nosotros nos resulta de suma importancia saber tus opiniones, quejas y sugerencias, así como recibir cualuqier otros datos que nos quieras dar</p><br>
   				<p class="texto_contacto" id="texto_campos_formulario"><b>Los campos con * son necesarios rellenarlos, sin embargo brindarnos la demás información nos facilitará poder contactarnos contigo<b></p><br>
-  				<select name="motivo" class="contacto_input" required>
+          <select name="motivo" class="contacto_input" required>
             <option selected disabled id="color_select">Indique el motivo del mensaje*</option>
             <option value="Contacto">Consulta</option>
             <option value="Distribuidor">Buscar distribuidores</option>
             <option value="Trabajo">Bolsa de trabajo</option>
           </select>
-          <input type="text" name="nom" placeholder="Nombre(s)*" class="contacto_input" required>
+  				<input type="text" name="nom" placeholder="Nombre(s)*" class="contacto_input" required>
   				<input type="text" name="surnom" placeholder="Apellido(s)*" class="contacto_input" required>
   				<input type="text" name="tel" placeholder="Teléfono" class="contacto_input">
   				<input type="text" name="correo" placeholder="Correo elétronico*" class="contacto_input" required>
