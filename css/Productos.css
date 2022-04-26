@@ -24,6 +24,11 @@ h1{
   color: #285d39;
 }
 
+h2{
+  color: #285d39;
+  font-size: 14pt;
+}
+
 a{
   text-decoration: none;
 }
@@ -291,6 +296,14 @@ a{
   background-color: #009538;
 }
 
+.scroll2{
+  float: right;
+  width: 25%;
+  height: 240vH;
+  background-color: #009538;
+}
+
+
 /*Bloque para insertar los datos del scroll*/
 .pdf_producto{
   width: 80%;
@@ -366,7 +379,12 @@ a#pdf_productos_relacionados:hover{
 }
 
 @media only screen and (max-width:980px){
+
   .scroll{
+    display:none;
+  }
+
+  .scroll2{
     display:none;
   }
 
@@ -392,8 +410,11 @@ a#pdf_productos_relacionados:hover{
   .texto_producto{
     width: 97%;
     text-align: justify;
+  }
 
-
+  .texto_producto2{
+    font-size:12pt;
+    text-align: justify;
   }
 
   .list_brand{
@@ -413,3 +434,4 @@ a#pdf_productos_relacionados:hover{
   .rec_prod_image{
     width: 20%;
   }
+  
