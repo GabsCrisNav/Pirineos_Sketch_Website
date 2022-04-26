@@ -252,6 +252,11 @@ a{
 
 }
 
+.bloque_presentacion_productos2{
+  display:none;
+
+}
+
 /*Evita que las descripciones queden a los extremos del div ".bloque_presentacion_productos"*/
 .texto_producto{
   width: 80%;
@@ -361,78 +366,48 @@ a#pdf_productos_relacionados:hover{
 
 @media only screen and (max-width:980px){
   .scroll{
-    float: right;
-    width: 25%;
-    height: 115vH;;
-    background-color: #009538;
+    display:none;
   }
 
-  /*Bloque para insertar los datos del scroll*/
-  .pdf_producto{
-    width: 80%;
-    height: 15vH;
-    margin-top: 5vh;
-    background-color: #009538;
+  .bloque_presentacion_productos{
+    display:none;
   }
 
-  /*Estilización de los títulos del scroll*/
-  .titulos_scroll_productos{
-    color: white;
+
+  .bloque_presentacion_productos2{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left:2%;
+    padding:5%;
+    background-color: #f4f4f4;
     text-align: justify;
-    padding: 2vh;
-    font-size:14pt;
+
 
   }
 
-  .texto_descarga{
-    margin-top:2vh;
-    font-weight:bold;
-    color:#fdcc00;
-  }
+  /*Evita que las descripciones queden a los extremos del div ".bloque_presentacion_productos"*/
+  .texto_producto{
+    width: 97%;
+    text-align: justify;
 
-  /*Da un espaciado extra con respecto al margen superior*/
-  div#pdf_producto_marco_arriba{
-    margin-top: 10vH;
-    padding: 10%;
-  }
-
-  /*Expande la altura del bloque. PENDIENTE A REVISAR Y, SI SE DA EL CASO, BORRAR U OPTIMIZAR*/
-  .productos_relacionados{
-    width: 100%;
-    height: 10vH;
-    margin-top: 5vh;
-    background-color: #009538;
-      padding: 10%;
 
   }
 
-  /*Div especifico para el texto (link) e imagen de los productos relacionados*/
-  .div_productos_relacionados{
-    width: 50%;
-    float: left;
-    margin-top: 5vh;
+  .list_brand{
+    margin-left:5%;
+    font-weight: bold;
+    padding:5%;
+    color: #285d39;
   }
 
-  /*Estilización del link de productos relacionados*/
-  #pdf_productos_relacionados{;
-    display: block;
+  /*The style for the words in the related product section*/
+  .rec_prod_style{
+    color: "White";
+    size: 4pt;
   }
 
-  /*Animación para el texto (link) de productos relacionados*/
-  a#pdf_productos_relacionados:hover{
-    background: #fdcc00;
+  /*The style for the images in the related product section*/
+  .rec_prod_image{
+    width: 20%;
   }
-
-  /*Crea un bloque para los links a redes sociales*/
-  .compartir_scroll_productos{
-    width: 50%;
-    text-align: center;
-    margin-top: 5vH;
-    background-color: #009538;
-  }
-
-  .icon_scroll{
-    padding:1.5vH
-  }
-}
-
