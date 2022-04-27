@@ -24,6 +24,7 @@ h1{
   color: #285d39;
 }
 
+
 a{
   text-decoration: none;
 }
@@ -239,17 +240,17 @@ a{
 .bloque_general_productos{
   float: left;
   width:100%;
-  height: auto;
-  background-color: #f4f4f4;
+  height: 100%;
+  background-color: #009538;
 }
 
 /*Crea el espacio para la información del producto (imágen de producto y de tabla de rendimiento (puede variar), descripciones y vídeo)*/
 .bloque_presentacion_productos{
   float: left;
   width: 75%;
-  height: auto;
+  height: 100%;
   background-color: #f4f4f4;
-  margin-bottom: 5vH;
+  box-sizing: border-box
 
 }
 
@@ -287,16 +288,10 @@ a{
 .scroll{
   float: right;
   width: 25%;
-  height: 300vH;
+  height: 100%;
   background-color: #009538;
 }
 
-.scroll2{
-  float: right;
-  width: 25%;
-  height: 240vH;
-  background-color: #009538;
-}
 
 
 /*Bloque para insertar los datos del scroll*/
@@ -311,7 +306,6 @@ a{
 /*Estilización de los títulos del scroll*/
 .titulos_scroll_productos{
   font-size: 16pt;
-  padding:2vH;
   margin-top:5vH;
   color: white;
   align-content: justify;
@@ -379,9 +373,6 @@ a#pdf_productos_relacionados:hover{
     display:none;
   }
 
-  .scroll2{
-    display:none;
-  }
 
   .bloque_presentacion_productos{
     display:none;
@@ -410,6 +401,9 @@ a#pdf_productos_relacionados:hover{
   .texto_producto2{
     font-size:16pt;
     text-align: justify;
+  }
+  .texto_descarga{
+    font-size:12pt;
   }
 
   .list_brand{
