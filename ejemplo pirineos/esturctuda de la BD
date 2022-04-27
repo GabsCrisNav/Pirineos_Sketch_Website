@@ -1,0 +1,21 @@
+Base de datos: ejemplo_prinieos
+
+Productos:
+cve_prod		varchar	5
+nom_prod		varchar	50
+tipo_prod		varchar	5
+presenta_prod	varchar	50
+
+Tipos
+cve_tipo		varchar 5
+nom_tipo		varchar 50
+
+ABCC de Productos (Presentación)
+ABC  de Tipos
+
+Reportes:
+Lista de Productos
+Lista de Tipos
+Lista de Productos de un tipo
+Consulta X nombre de productos
+Consulta X nombre de Tipos

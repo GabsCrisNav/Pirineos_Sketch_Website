@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	color: blue;
+	font-size: 14pt;
+	font-weight: bold;	
+}
+
+.titulo36{
+	color: blue;
+	font-size: 36pt;
+	font-weight: bold;
+}
+
+#titulo24{
+	font-size: 24pt;
+}
+
+#titulo18{
+	font-size: 18pt;
+}
+
+.boton{
+	color: white;
+	background: blue;
+	font-size: 14pt;
+	font-weight: bold;
+	height: 30px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+.boton:hover{
+	color: blue;
+	background: white;	
+}
+
+#rojo{
+	background: red;	
+}
+
+.campo{
+	color: white;
+	background: blue;
+	font-size: 14pt;
+	font-weight: bold;
+	width: 250px;
+	border-radius: 10px;
+	text-align: center;
+}
