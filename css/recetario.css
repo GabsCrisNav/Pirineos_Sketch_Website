@@ -12,43 +12,53 @@
 }
 
 .recetario_title{
-  width: 70%;
-  height: 12vh;
+  width: 100%;
+  margin-top:2%;
   text-align: center;
 }
 
 .receta_box{
   align-content: center;
   height:auto;
-  width: 70%;
-  float: left;
-  margin-bottom: 5vh;
+  width: auto;
+  padding:4%;
 }
 
-.receta_links_box{
-  margin-left: 40px;
-  width: 60%;
+.img_receta{
+  height:100%;
+  width: 100%;
 }
 
-.receta_box_ulti{
-  height:350px;
-  width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-}
 
-.titulo_producto{
-  color: #ABD037;
-  -webkit-text-stroke: 0.5px black;
-}
+@media only screen and (max-width:980px){
 
-.link_receta{
-  color: green;
-  margin: auto;
-}
+  .recetario_gen_box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: auto;
+    margin:  auto;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    justify-content: center;
+  }
 
-.ejemplo_receta{
-  margin-right: 20px;
-  width: 45%;
-  height:300px;
-}
+  .recetario_title{
+    width: 100%;
+    padding:2%;
+    text-align: center;
+  }
+
+  .receta_box{
+    align-content: center;
+    height:auto;
+    width: auto;
+    padding:2%;
+  }
+
+  .img_receta{
+    height:100%;
+    width: 95%;
+  }
