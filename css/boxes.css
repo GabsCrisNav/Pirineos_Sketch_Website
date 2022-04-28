@@ -5,8 +5,8 @@
   justify-content: flex-end;
   align-items: center;
   margin-top: 40px;
-  height: 60vh;
-  width: 26%;
+  height: 55vh;
+  width: 22.5%;
   padding: 2em;
   margin: 1em;
   position: relative;
@@ -22,16 +22,25 @@
 .bloque_crono{
   width: 100%;
   height: auto;
-  padding: 0;
-  margin: 0;
   display: flex;
   flex-wrap: wrap;
 }
 
+.bloque_crono2{
+  display:none;
+}
+
+.bloque_crono3{
+  display:none;
+}
+
+
 .container img{
-  width: 100%;
-  height: 30vh;
-  border-radius: 20px;
+  width: 90%;
+  height: 25vH;
+  padding:5%;
+  border-radius: 40px;
+  align-content:center;
 }
 
 /*estiliza el bloque donde se guarda la fecha o titulo del dato de la linea de tiempo */
@@ -52,6 +61,7 @@
 
 /*Formato para el header quienes somos*/
 .header_q_s {
+  color:white;
   height: 100%;
   background-color: #009538;
   margin: 0;
@@ -83,5 +93,142 @@ body {
 .how_container {
   text-align: center;
   font-family: verdana;
-  margin-bottom: 40px;
+  margin-bottom: 5%;
 }
+
+@media only screen and (max-width:1200px){
+  /*estiliza el bloque donde se guarda la informacion de un dato en la linea de tiempo */
+  .container {
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 52vH;
+    width: 38.6%;
+    padding: 2%;
+    display: inline-block;
+    background-color: #009538;
+    font-family: verdana;
+    text-align: justify;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size:10pt;
+  }
+
+  .container img{
+    width: 80%;
+    height: 20vH;
+    padding:5%;
+    border-radius: 40px;
+    align-content:center;
+  }
+
+
+  .bloque_crono{
+    display:none;
+  }
+
+  .bloque_crono2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .bloque_crono3{
+    display:none;
+  }
+
+
+  /*estiliza el bloque donde se guarda la fecha o titulo del dato de la linea de tiempo */
+  .label {
+    position: absolute;
+    width:15%;
+    border: 2px solid green;
+    height: 15px;
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    font-family: verdana;
+    border-radius: 10px;
+    color: green;
+    font-weight: bold;
+  }
+
+  /*Formato para el header quienes somos*/
+  .header_q_s {
+    color:white;
+    height: 100%;
+    background-color: #009538;
+    margin: 0;
+    padding: 20px;
+  }
+
+  /*Formato para la lista en quienes somos*/
+  .list_q_s {
+    width: 17%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*Body style*/
+  body {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    margin: 0;
+  }
+  /*Formato para texto en quienes somos*/
+  .p_q_s {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*Fuente de letra de los bloques de quienes somos y linea de tiempo de la pagina tambien como estan alineados*/
+  .how_container {
+    text-align: center;
+    font-family: verdana;
+    margin-bottom: 5%;
+  }
+
+  @media only screen and (max-width:980px){
+    /*estiliza el bloque donde se guarda la informacion de un dato en la linea de tiempo */
+    .container {
+      flex-direction: column;
+      justify-content: flex-end;
+      height: auto;
+      width: 38%;
+      padding: 2%;
+      display: inline-block;
+      background-color: #009538;
+      font-family: verdana;
+      text-align: justify;
+      border-radius: 20px;
+      color: white;
+      font-weight: bold;
+      font-size:8pt;
+    }
+
+    .container img{
+      width: 80%;
+      height: 20vH;
+      padding:5%;
+      border-radius: 40px;
+      align-content:center;
+    }
+
+
+    .bloque_crono{
+      display:none;
+    }
+
+    .bloque_crono2{
+      display:none;
+    }
+
+    .bloque_crono3{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
