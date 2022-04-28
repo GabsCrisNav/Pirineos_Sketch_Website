@@ -163,6 +163,11 @@ body {
   height: 52vH;
 }
 
+.imagen_slider{
+  width: 100%;
+  height: inherit;
+}
+
 .section_slider{
   margin: 0;
   padding: 0;
