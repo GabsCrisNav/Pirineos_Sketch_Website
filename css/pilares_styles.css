@@ -542,12 +542,18 @@ body {
 	width: 100%;
 
 }
+.equipos1{
+	display: flex;
+}
+.equipos2{
+	display: none;
+}
 
 /*Grid de 4 elementos*/
 .grid_quarter{
   float: left;
-  width: 23%;
-	padding:15px;
+  width: 23.5%;
+	padding:0.5%;
 	height: 100%;
 	font-size: 12pt;
 	text-align: justify;
@@ -577,6 +583,7 @@ body {
 	font-size: 12pt;
 	text-align: justify;
 	margin-bottom:10px;
+	background-color:#009538;
 }
 
 /*Todo texto negro*/
@@ -593,15 +600,111 @@ body {
 	padding:5px;
 }
 
+
+
 /*Imagenes de la pagina*/
 .page_images{
 	padding:15px;
+}
+
+
+
+.nuestra2{
+	display:none;
+}
+
+@media only screen and (max-width: 980px) {
+
+	.text_tittle{
+		font-size:16pt;
+	}
+
+	.tittle2{
+			font-size:14pt;
+	}
+	/*Bloque de division para elementos grid*/
+	.division_space{
+		content: "";
+		display: table;
+		clear: both;
+		width: 100%;
+
+	}
+	.equipos1{
+		display: none;
+	}
+
+	.equipos2{
+		display: flex;
+	}
+
+	/*Grid de 4 elementos*/
+	.grid_quarter{
+	  width: 21%;
+		padding:0.5%;
+		height: 100%;
+		font-size: 12pt;
+		text-align: justify;
+		font-size:10pt;
+	}
+
+	/*grid de 2 elementos*/
+	.grid_half{
+	  float: left;
+	  width: 41%;
+		padding:2%;
+		font-size: 12pt;
+		text-align: justify;
+		margin-left:2%;
+	}
+
+
+	/*Todo texto blanco*/
+	.text_white{
+		float left;
+		color:white;
+		width: 100%;
+		height:auto;
+		padding:5px;
+		font-size: 12pt;
+		text-align: justify;
+		margin-bottom:10px;
+		background-color:#009538;
+	}
+
+	/*Todo texto negro*/
+	.text_black{
+		padding:5px;
+		font-size: 12pt;
+		text-align: justify;
+		margin-bottom:5px;
+	}
+
+	/*sub-titulo*/
+	.subtitle{
+		font-weight:bold;
+		text-align: center;
+	}
+
+.text_nuestra{
+	height:auto;
+	text-align:justify;
+	font-size:11pt;
+}
+
+	/*Imagenes de la pagina*/
+	.page_images{
+		padding:15px;
+
+	}
+
+	.nuestra1{
+		display:none;
+	}
+
+	.nuestra2{
+		display:flex;
+	}
 
 }
 
-/*Logo thermonox*/
-.logo_thermo{
-	padding:15px;
-	height:400px;
-
-}
