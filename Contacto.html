@@ -54,7 +54,7 @@
           <a href="Contacto.html" class="titulo_menu" style = "padding: 6.5% 3% 5% 3%;">Contacto</a>
         </nav>
   </div>
-  
+
   <!-- SLIDER-->
   <div class="bloque_slider">
     <img class="imagen_slider" src="images/banner_home.png"></img>
@@ -68,16 +68,23 @@
   	<div align="center" class="bloque_general_contacto">
   		<div class="bloque_distribuidores">
   			<br><br><p class="titulos_contacto"><b>Direcciones</b></p>
-  			<p class="texto_contacto"><b>Planta Salamanca</b><br> Carretera Panamericana km 11, tramo Salamanca-Celaya, Salamanca, Gto.<br><br><b>Planta Irapuato</b><br>Blvd. Solidaridad 10781, Col. Las Delicias, Irapuato, Gto.
-  			<br><br><b>Ferropuerto Uwe Schwarz Villagrán</b><br> Carretera Panamericana km 292.4, tramo Celaya-Salamanca, Villagrán, Gto.</p><br><hr id="hr_formulario">
-  			<p class="titulos_contacto"><b>Teléfono</b></p>
-  			<p class="texto_contacto">+52 (464) 642 01 96<br>Sin costo: 01 800 147 4444</p><br><br>
+  			<p class="texto_contacto"><b>Planta Salamanca</b>
+          <p class="texto_contacto">Carretera Panamericana km 11, tramo Salamanca-Celaya, Salamanca, Gto.</p>
+          <p class="texto_contacto"><b>Planta Irapuato</b>
+          <p class="texto_contacto">Blvd. Solidaridad 10781, Col. Las Delicias, Irapuato, Gto.</p>
+          <p class="texto_contacto"><b>Ferropuerto Uwe Schwarz Villagrán</b></p>
+          <p class="texto_contacto">Carretera Panamericana km 292.4, tramo Celaya-Salamanca, Villagrán, Gto.</p>
+          <hr id="hr_formulario" style="margin-top:5%; margin-left:5%">
+    			<p class="titulos_contacto" style="margin-top:5%"><b>Teléfono</b></p>
+    			<p class="texto_contacto">+52 (464) 642 01 96<br>Sin costo: 01 800 147 4444</p><br><br>
   		</div>
   		<div class="bloque_formulario">
   			<form class="formulario" action="enviar-prueba.php" method="post">
   				<br><br><p class="titulos_contacto"><b>Contáctanos</b></p>
-  				<p class="texto_contacto">Para nosotros nos resulta de suma importancia saber tus opiniones, quejas y sugerencias, así como recibir cualuqier otros datos que nos quieras dar</p><br>
-  				<p class="texto_contacto" id="texto_campos_formulario"><b>Los campos con * son necesarios rellenarlos, sin embargo brindarnos la demás información nos facilitará poder contactarnos contigo<b></p><br>
+          <div class="guide">
+  				<p class="texto_contacto">Para nosotros nos resulta de suma importancia saber tus opiniones, quejas y sugerencias, así como recibir cualuqier otros datos que nos quieras dar</p>
+  				<p class="texto_contacto" id="texto_campos_formulario"><b>Los campos con * son necesarios rellenarlos, sin embargo brindarnos la demás información nos facilitará poder contactarnos contigo<b></p>
+          </div>
           <select name="motivo" class="contacto_input" required>
             <option selected disabled id="color_select">Indique el motivo del mensaje*</option>
             <option value="Contacto">Consulta</option>
@@ -91,6 +98,43 @@
   				<textarea name="mensaje" placeholder="Mensaje" class="contacto_input" id="contacto_textarea"></textarea>
   				<input type="submit" value="Enviar" id="boton_formulario">
   			</form>
+  		</div>
+  	</div>
+
+    <div align="center" class="bloque_general_contacto2">
+  		<div class="bloque_formulario2">
+  			<form class="formulario" action="enviar-prueba.php" method="post">
+  				<br><br><p class="titulos_contacto"><b>Contáctanos</b></p>
+          <div class="guide">
+  				<p class="texto_contacto">Para nosotros nos resulta de suma importancia saber tus opiniones, quejas y sugerencias, así como recibir cualuqier otros datos que nos quieras dar</p>
+  				<p class="texto_contacto" id="texto_campos_formulario"><b>Los campos con * son necesarios rellenarlos, sin embargo brindarnos la demás información nos facilitará poder contactarnos contigo<b></p>
+          </div>
+          <div class="form_block">
+          <select name="motivo" class="contacto_input" required>
+            <option selected disabled id="color_select">Indique el motivo del mensaje*</option>
+            <option value="Contacto">Consulta</option>
+            <option value="Distribuidor">Buscar distribuidores</option>
+            <option value="Trabajo">Bolsa de trabajo</option>
+          </select>
+  				<input type="text" name="nom" placeholder="Nombre(s)*" class="contacto_input" required>
+  				<input type="text" name="surnom" placeholder="Apellido(s)*" class="contacto_input" required>
+  				<input type="text" name="tel" placeholder="Teléfono" class="contacto_input">
+  				<input type="text" name="correo" placeholder="Correo elétronico*" class="contacto_input" required>
+  				<textarea name="mensaje" placeholder="Mensaje" class="contacto_input" id="contacto_textarea"></textarea>
+  				<input type="submit" value="Enviar" id="boton_formulario">
+  			</form>
+      </div>
+         <hr id="hr_formulario" style="margin-top:10%">
+    			<p class="titulos_contacto" style="margin-top:10%"><b>Direcciones</b></p>
+            <p class="texto_contacto"><b>Planta Salamanca</b>
+            <p class="texto_contacto">Carretera Panamericana km 11, tramo Salamanca-Celaya, Salamanca, Gto.</p>
+            <p class="texto_contacto"><b>Planta Irapuato</b>
+            <p class="texto_contacto">Blvd. Solidaridad 10781, Col. Las Delicias, Irapuato, Gto.</p>
+            <p class="texto_contacto"><b>Ferropuerto Uwe Schwarz Villagrán</b></p>
+            <p class="texto_contacto">Carretera Panamericana km 292.4, tramo Celaya-Salamanca, Villagrán, Gto.</p><br>
+    			  <p class="titulos_contacto"><b>Teléfono</b></p>
+    			  <p class="texto_contacto">+52 (464) 642 01 96</p>
+           <p class="texto_contacto" style="margin-bottom:5%">Sin costo: 01 800 147 4444</p>
   		</div>
   	</div>
   </div>
@@ -126,3 +170,4 @@
       </div>
 </body>
 </html>
+  
