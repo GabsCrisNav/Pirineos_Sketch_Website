@@ -285,11 +285,15 @@ a{
 /*PARTE DE CONTACTO*/
 
 .bloque_general_contacto{
-	height: 95vh;
+	height: 120vH;
 	margin: auto;
 	width: 90%;
-  margin-bottom: 1vh;
+  margin-bottom: 2%;
 	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.bloque_general_contacto2{
+	display:none;
 }
 
 .bloque_mapa_contacto{
@@ -304,18 +308,26 @@ a{
   	margin:  auto;
 }
 
+
+.guide{
+  width: 100%;
+  height:auto;
+  margin-bottom:5%;
+}
+
 .titulos_contacto{
 	color: #519C45;
 	text-align: left;
 	margin: 0;
 	font-size: 30px;
-	margin-bottom: 20px;
-	margin-left: 15px;
+	margin-bottom: 5%;
+	margin-left: 5%;
 }
 
 .texto_contacto{
-	font-size: 17px;
-	margin-left: 15px;
+	font-size: 12pt;
+  padding:1.5%;
+  margin-left:5%;
 }
 
 #texto_campos_formulario{
@@ -327,6 +339,10 @@ a{
 	float: left;
   	width: 50%;
   	margin: auto;
+}
+
+.bloque_formulario2{
+  display:none
 }
 
 .formulario{
@@ -375,6 +391,126 @@ a{
 #hr_formulario{
   height: 5px;
   margin-left: 10px;
-  background-color: lightslategrey;
+  background-color: #009538;
   border-radius: 5px;
+}
+
+@media only screen and (max-width:980px){
+  /*PARTE DE CONTACTO*/
+
+
+  .bloque_general_contacto2{
+    display:flex;
+  	height: auto;
+  	margin: auto;
+  	width: 90%;
+    margin-bottom: 1vh;
+  	background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .bloque_general_contacto{
+  	display:none;
+  }
+
+  .bloque_mapa_contacto{
+    margin: auto;
+    width: 90%;
+  }
+
+  .bloque_distribuidores{
+    display:none;
+  }
+
+  .guide{
+    width:100%;
+    height:auto;
+  }
+
+  .titulos_contacto{
+  	color: #519C45;
+  	margin: 0;
+  	font-size: 30px;
+  	margin-bottom: 20px;
+  	margin-left: 15px;
+    width: 100%;
+  }
+
+  .texto_contacto{
+  	font-size: 12pt;
+    width:100%
+    padding:0.5%;
+  }
+
+  #texto_campos_formulario{
+  	color: red;
+  	font-size: 11px;
+  }
+
+  .bloque_formulario{
+    display:none;
+  }
+
+  .bloque_formulario2{
+    display:flex;
+    width: 100%;
+    height:auto;
+    padding:2%;
+  }
+
+
+  .formulario{
+  	width: 80%;
+  	padding: 10px 20px;
+  	border-radius: 7px;
+  }
+
+  .contacto_input{
+  	width: 100%;
+  	margin-bottom: 20px;
+  	padding: 7px;
+  	box-sizing: border-box;
+  	font-size: 17px;
+  	border-style: solid;
+  	border-radius: 15px;
+  	border-color: green;
+  	border-width: 2.5px;
+  }
+
+  .contacto_input:hover{
+  	border-color: red;
+  }
+
+  #contacto_textarea{
+  	min-height: 100px;
+  	max-height: 200px;
+  	max-width: 100%;
+  }
+
+  #boton_formulario{
+  	font-family: verdana;
+  	background: yellow;
+  	color: brown;
+  	border-color: yellowgreen;
+  	font-size: 20px;
+  	padding: 5px;
+  	padding-left: 30px;
+  	padding-right: 30px;
+  }
+
+  #boton_formulario:hover{
+  	cursor: pointer;
+  }
+
+  #hr_formulario{
+    height: 5px;
+    margin-left: 10px;
+    background-color: #009538;
+    border-radius: 5px;
+  }
+
+  .form_block{
+    margin-left:12%;
+  }
+
+
 }
