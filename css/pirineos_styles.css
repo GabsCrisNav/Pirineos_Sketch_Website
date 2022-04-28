@@ -615,3 +615,29 @@ Optimize for medium devices, from 450px to 980px
 .list_q_s{
   margin-left:15%;
 }
+
+
+
+
+.text_quienes{
+  width:100%;
+  height: auto;
+}
+
+@media only screen and (max-width:980px){
+  .text_quienes{
+    width:100%;
+    font-size:14pt;
+    height: auto;
+
+  }
+
+  h1{
+    font-size:20pt;
+  }
+
+  h2{
+    font-size:16pt;
+  }
+
+}
