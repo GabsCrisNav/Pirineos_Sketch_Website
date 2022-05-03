@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Contacto - Pirineos</title>
+  <link href="images/logo_pirineos.png" rel="shortcut icon" type="image/png">
+  <link rel="stylesheet" type="text/css" href="css/contacto.css">
+  <link href="css/home.css" rel="stylesheet" type="text/css">
+  <script src="js/index_s.js" type="text/JavaScript"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="harinas_de_trigo.php">Harinas de Trigo</a>
+    <a href="Productos.php">Harinas Preparadas BakeryMix®</a>
+    <a href="harinas_para_el_hogar.php">Harinas de Trigo para el Hogar</a>
+    <a href="derivados_de_trigo.php">Derivados de trigo</a>
+    <a href="Productos_RendiMix.php">Mejorantes RendiMix®</a>
+    <a href="Contacto.html">Contacto</a>
+</div>
+
+  <!-- Barra de bússqeda e iconos-->
+  <form class="busqueda_header" method="GET" >
+        <!--BARRA DE BUSQUEDA-->
+          <div class="bloque_barra">
+            <input  name="search_text" type="text" placeholder="Buscar..." class="barra_busqueda" />
+            <input type="submit"  value="Submit" onClick="search_input(this.form)"hidden >
+          </div>
+          <div class="call_text_container"><span class = "y_text_call">Llama ahora: </span><span class = "w_text_call">01 800 464 9600</span></div>
+          <a class="fa fa-facebook-square" href="https://www.facebook.com/impulsopirineos/"></a>
+  </form>
+
+  <!-- Menu y Logo-->
+  <div class="header"><!--align="center"-->
+    <div class = "menu_b">
+      <span  class = "icon_menu" onclick="openNav()">&#9776;</span>
+    </div>
+        <!-- IMAGEN LOGO-->
+        <div class="bloque_logo">
+          <a href="index.html">
+            <img class="logo_header" src="images/logo.png"/>
+          </a>
+        </div>
+
+        <!-- MENU PRINCIPAL-->
+        <nav class="bloque_menu" >
+          <a href="harinas_de_trigo.php" class="titulo_menu" style = "padding: 6% 3% 5% 3%;">Harinas de Trigo</a><div class="line_div"></div>
+          <a href="Productos.php" class="titulo_menu" style = "padding: 5% 3% 5% 3%;">Harinas Preparadas BakeryMix®</a><div class="line_div"></div>
+          <a href="harinas_para_el_hogar.php" class="titulo_menu" style = "padding: 5% 3% 5% 3%;">Harinas de Trigo para el Hogar</a><div class="line_div"></div>
+          <a href="derivados_de_trigo.php" class="titulo_menu" style = "padding: 6% 3% 5% 3%;">Derivados de trigo</a><div class="line_div"></div>
+          <a href="Productos_RendiMix.php" class="titulo_menu" style = "padding: 6% 3% 5% 3%;">Mejorantes RendiMix®</a><div class="line_div"></div>
+          <a href="Contacto.html" class="titulo_menu" style = "padding: 6.5% 3% 5% 3%;">Contacto</a>
+        </nav>
+  </div>
+
+  <!-- SLIDER-->
+  <div class="bloque_slider">
+    <img class="imagen_slider" src="images/banner_home.png"></img>
+  </div>
+
+  <!--CONTACTO-->
+    <div style="background-image: url('images/fondo_formulario.jpg');">
+    <div class="bloque_mapa_contacto">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7472.737254582819!2d-101.091889!3d20.532093000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57460b27468d2901!2sHARINERA%20LOS%20PIRINEOS!5e0!3m2!1ses-419!2smx!4v1650093154928!5m2!1ses-419!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  	<div align="center" class="bloque_general_contacto">
+  		<div class="bloque_distribuidores">
+  			<br><br><p class="titulos_contacto"><b>Direcciones</b></p>
+  			<p class="texto_contacto"><b>Planta Salamanca</b>
+          <p class="texto_contacto">Carretera Panamericana km 11, tramo Salamanca-Celaya, Salamanca, Gto.</p>
+          <p class="texto_contacto"><b>Planta Irapuato</b>
+          <p class="texto_contacto">Blvd. Solidaridad 10781, Col. Las Delicias, Irapuato, Gto.</p>
+          <p class="texto_contacto"><b>Ferropuerto Uwe Schwarz Villagrán</b></p>
+          <p class="texto_contacto">Carretera Panamericana km 292.4, tramo Celaya-Salamanca, Villagrán, Gto.</p>
+          <hr id="hr_formulario" style="margin-top:5%; margin-left:5%">
+    			<p class="titulos_contacto" style="margin-top:5%"><b>Teléfono</b></p>
+    			<p class="texto_contacto">+52 (464) 642 01 96<br>Sin costo: 01 800 147 4444</p><br><br>
+  		</div>
+  		<div class="bloque_formulario">
+  			<form class="formulario" action="enviar-prueba.php" method="post">
+  				<br><br><p class="titulos_contacto"><b>Contáctanos</b></p>
+          <div class="guide">
+  				<p class="texto_contacto">Para nosotros nos resulta de suma importancia saber tus opiniones, quejas y sugerencias, así como recibir cualuqier otros datos que nos quieras dar</p>
+  				<p class="texto_contacto" id="texto_campos_formulario"><b>Los campos con * son necesarios rellenarlos, sin embargo brindarnos la demás información nos facilitará poder contactarnos contigo<b></p>
+          </div>
+          <select name="motivo" class="contacto_input" required>
+            <option selected disabled id="color_select">Indique el motivo del mensaje*</option>
+            <option value="Contacto">Consulta</option>
+            <option value="Distribuidor">Buscar distribuidores</option>
+            <option value="Trabajo">Bolsa de trabajo</option>
+          </select>
+  				<input type="text" name="nom" placeholder="Nombre(s)*" class="contacto_input" required>
+  				<input type="text" name="surnom" placeholder="Apellido(s)*" class="contacto_input" required>
+  				<input type="text" name="tel" placeholder="Teléfono" class="contacto_input">
+  				<input type="text" name="correo" placeholder="Correo elétronico*" class="contacto_input" required>
+  				<textarea name="mensaje" placeholder="Mensaje" class="contacto_input" id="contacto_textarea"></textarea>
+  				<input type="submit" value="Enviar" id="boton_formulario">
+  			</form>
+  		</div>
+  	</div>
+
+    <div align="center" class="bloque_general_contacto2">
+  		<div class="bloque_formulario2">
+  			<form class="formulario" action="enviar-prueba.php" method="post">
+  				<br><br><p class="titulos_contacto"><b>Contáctanos</b></p>
+          <div class="guide">
+  				<p class="texto_contacto">Para nosotros nos resulta de suma importancia saber tus opiniones, quejas y sugerencias, así como recibir cualuqier otros datos que nos quieras dar</p>
+  				<p class="texto_contacto" id="texto_campos_formulario"><b>Los campos con * son necesarios rellenarlos, sin embargo brindarnos la demás información nos facilitará poder contactarnos contigo<b></p>
+          </div>
+          <div class="form_block">
+          <select name="motivo" class="contacto_input" required>
+            <option selected disabled id="color_select">Indique el motivo del mensaje*</option>
+            <option value="Contacto">Consulta</option>
+            <option value="Distribuidor">Buscar distribuidores</option>
+            <option value="Trabajo">Bolsa de trabajo</option>
+          </select>
+  				<input type="text" name="nom" placeholder="Nombre(s)*" class="contacto_input" required>
+  				<input type="text" name="surnom" placeholder="Apellido(s)*" class="contacto_input" required>
+  				<input type="text" name="tel" placeholder="Teléfono" class="contacto_input">
+  				<input type="text" name="correo" placeholder="Correo elétronico*" class="contacto_input" required>
+  				<textarea name="mensaje" placeholder="Mensaje" class="contacto_input" id="contacto_textarea"></textarea>
+  				<input type="submit" value="Enviar" id="boton_formulario">
+  			</form>
+      </div>
+         <hr id="hr_formulario" style="margin-top:10%">
+    			<p class="titulos_contacto" style="margin-top:10%"><b>Direcciones</b></p>
+            <p class="texto_contacto"><b>Planta Salamanca</b>
+            <p class="texto_contacto">Carretera Panamericana km 11, tramo Salamanca-Celaya, Salamanca, Gto.</p>
+            <p class="texto_contacto"><b>Planta Irapuato</b>
+            <p class="texto_contacto">Blvd. Solidaridad 10781, Col. Las Delicias, Irapuato, Gto.</p>
+            <p class="texto_contacto"><b>Ferropuerto Uwe Schwarz Villagrán</b></p>
+            <p class="texto_contacto">Carretera Panamericana km 292.4, tramo Celaya-Salamanca, Villagrán, Gto.</p><br>
+    			  <p class="titulos_contacto"><b>Teléfono</b></p>
+    			  <p class="texto_contacto">+52 (464) 642 01 96</p>
+           <p class="texto_contacto" style="margin-bottom:5%">Sin costo: 01 800 147 4444</p>
+  		</div>
+  	</div>
+  </div>
+
+  <!--FOOTER-->
+      <div class="bloque_footer">
+        <div class="bloque_contacto">
+          <h3 class="titulos_footer"> Contacto</h3>
+          <p class="texto_footer">Tel.01 800 123 1234</p>
+          <h3 class="titulos_footer">Dirección</h3>
+          <p class="texto_footer" style="max-width: 80%" align="left">Carretera Panamericana, Emiliano Zapata Km. 11, 36700 Salamanca, Guanajuato.</p>
+        </div>
+        <div class="bloque_boletin">
+          <h3 class="titulos_footer" >Boletín</h3>
+          <p><a href="#" class="texto_footer">Aviso de privacidad </a></p>
+          <p><a href="Contacto.html" class="texto_footer">Encuentra tu distribuidor</a></p>
+          <p><a href="preguntas_frecuentes.html" class="texto_footer">Preguntas Frecuentes</a></p>
+        </div>
+        <div class="bloque_redes">
+          <h3 class="titulos_footer">Contenidos</h3>
+          <p><a href="recetario_trial.html" class="texto_footer">Recetario</a></p>
+        </div>
+        <div class="bloque_bolsa">
+          <h3 class="titulos_footer">Bolsa de Trabajo</h3>
+          <p><a href="Contacto.html"class="texto_footer">Intregate a nuestro equipo </a></p>
+          <h3 class="titulos_footer" align="right">Siguenos en:</h3>
+          <form action="#">
+              <a href="https://www.facebook.com/impulsopirineos/" target="_blank" class="fa fa-facebook-square"></a>
+          </form>
+        </div>
+      </div>
+</body>
+</html>

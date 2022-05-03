@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*Bloque contenedor de preguntas frecuentes*/
+.bloque_faq{
+	width: 100%;
+	height: auto;
+	background-color: #009538;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-bottom: 4vh;
+}
+
+.titulo_faq{
+	font-family: verdana;
+	font-weight: bold;
+  	font-size: 250%;
+  	color: #FFC72C;
+	width: 100%;
+	height: 10vh;
+	padding-top: 5vh;
+	background-color: #009538;
+}
+
+.container_faq{
+	width: 50%;
+}
+
+.container_faq p{
+	text-align: justify;
+	font-family: verdana;
+	font-weight: bold;
+  	font-size: 0.9em;
+  	color: #351A15;
+}
+
+/*Estilización de la etiqueta details dentro del .bloque_faq*/
+.bloque_faq details{
+	background: white;
+	padding: .5rem;
+	border-radius: 10px;
+	margin: .5rem;
+	cursor: pointer;
+}
+
+/*Elimina el signo original de la etiqueta summary*/
+.bloque_faq summary{
+	color: #EA5A25;
+	font-family: verdana;
+	font-weight: bold;
+  	font-size: 1.2em;
+	list-style: none;
+}
+
+/*Cambia el signo de la etiqueta summary*/
+.bloque_faq summary::before{
+	content: '+';
+	padding-right: 1rem;
+}
+
+/*Cambia el signo cuando se despliega el summary*/
+.bloque_faq details[open] summary::before{
+	content: '-';
+}

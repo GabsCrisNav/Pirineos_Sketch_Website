@@ -6,6 +6,7 @@ p{
 
 h2{
 	 color: #0c7332;
+
 }
 
 /*Text styles and background options for Tecnología e Infraestructura*/
@@ -18,6 +19,7 @@ h2{
 .Sis_de_cal{
 	width: 100%;
 	text-align: inherit;
+
 }
 
 /*Text styles and background options for Nuestra Gente*/
@@ -73,6 +75,12 @@ body {
   padding: 1px 0;
   text-align: center;
   margin-right: 3%;
+}
+
+.s_boton{
+	float: left;
+
+
 }
 
 /*Search bar*/
@@ -184,7 +192,17 @@ body {
 .titulo_menu:hover{
   border-bottom: 3px solid #009538;
 }
+.menu_b{
+    display: none;
+}
 
+.icon_menu{
+  cursor: pointer;
+  font-family: verdana;
+  font-weight: bold;
+  color: #009538;
+  font-size: 195%;
+}
 /*----------------------------------------------------------------------------*/
 /*Banner*/
 .bloque_banner{
@@ -245,3 +263,448 @@ body {
   width:24%;
   margin-right:3%;
 }
+
+@media only screen and (max-width: 980px) {
+  .header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .busqueda_header{
+    height: 4vh;
+    width: 100%;
+    background-color: #009538;
+    padding: 1% 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .call_text_container {
+    padding: 0.5% 2.5%;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 85%;
+    font-size: 9px;
+}
+.bloque_barra {
+  width: 69%;
+  padding: 6px 0;
+  text-align: center;
+  margin-left: 12%;
+}
+  .bloque_aliados{
+    height: 26vh;
+  }
+  .bloque_menu {
+    display: none;
+  }
+  .bloque_logo{
+    max-width: 60%;
+    padding-left: 6%;
+  }
+  .menu_b{
+    display: block;
+      width: 15%;
+      padding: 0 0 2px 3%;
+      margin-top: auto;
+      margin-bottom: auto;
+      text-align: left;
+  }
+  .logo_header{
+    width: 40%;
+    display: block;
+    margin-left: 22%;
+    margin-right: auto;
+  }
+  .bloque_footer {
+    height: 23vh;
+    background-color: #194629;
+    font-family: verdana;
+    color: white;
+    display: flex;
+    flex-direction: row;
+		text-align: justify;
+  }
+  .titulos_footer {
+    font-size: 10px;
+    text-align: left;
+		text-align: justify;
+  }
+  .texto_footer {
+    font-size: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+		text-align: justify;
+  }
+}
+/*----------------------------------------------------------------------------*/
+.sidenav {
+  height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fcb934;
+    overflow-x: hidden;
+    transition: 0.1s;
+    padding-top: 60px;
+    font-family: verdana;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 25px;
+   text-decoration: none;
+   font-size: 25px;
+   color: black;
+   display: block;
+   transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #dad0d0;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: black;
+}
+
+/*980px*/
+@media only screen and (max-width: 980px) {
+  .header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .busqueda_header{
+    height: 4vh;
+    width: 100%;
+    background-color: #009538;
+    padding: 1% 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .call_text_container {
+    padding: 0.5% 2.5%;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 85%;
+    font-size: 9px;
+}
+.bloque_barra {
+  width: 69%;
+  padding: 6px 0;
+  text-align: center;
+  margin-left: 12%;
+}
+  .bloque_aliados{
+    height: 26vh;
+  }
+  .bloque_menu {
+    display: none;
+  }
+  .bloque_logo{
+    max-width: 60%;
+    padding-left: 6%;
+  }
+  .menu_b{
+    display: block;
+      width: 15%;
+      padding: 0 0 2px 3%;
+      margin-top: auto;
+      margin-bottom: auto;
+      text-align: left;
+  }
+  .logo_header{
+    width: 40%;
+    display: block;
+    margin-left: 22%;
+    margin-right: auto;
+  }
+  .bloque_footer {
+    height: 23vh;
+    background-color: #194629;
+    font-family: verdana;
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+  .titulos_footer {
+    font-size: 10px;
+    text-align: left;
+  }
+  .texto_footer {
+    font-size: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .busqueda_header{
+    height: 4vh;
+    width: 100%;
+    background-color: #009538;
+    padding: 1% 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .call_text_container {
+    padding: 0.5% 2.5%;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 85%;
+    font-size: 9px;
+}
+.bloque_barra {
+  width: 69%;
+  padding: 6px 0;
+  text-align: center;
+  margin-left: 12%;
+}
+  .bloque_aliados{
+    height: 36vh;
+  }
+  .bloque_menu {
+    display: none;
+  }
+  .bloque_logo{
+    max-width: 60%;
+    padding-left: 6%;
+  }
+  .menu_b{
+    display: block;
+      width: 15%;
+      padding: 0 0 2px 3%;
+      margin-top: auto;
+      margin-bottom: auto;
+      text-align: left;
+  }
+  .logo_header{
+    width: 90%;
+    display: block;
+    margin-left: 7%;
+    margin-right: auto;
+  }
+  .bloque_footer {
+    height: 23vh;
+    background-color: #194629;
+    font-family: verdana;
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+  .titulos_footer {
+    font-size: 10px;
+    text-align: left;
+  }
+  .texto_footer {
+    font-size: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+/*TRES PILARES PAGE*/
+/*Linea de diseño*/
+.line_div_horizontal{
+  height: 1%;
+  width: 25%;
+  border-bottom: 4px solid #fdcc00;
+  padding: 0 0 0 0;
+  margin-left: auto;
+  margin-right: 60%;
+}
+
+/*Bloque de division para elementos grid*/
+.division_space{
+	content: "";
+	display: table;
+	clear: both;
+	width: 100%;
+
+}
+.equipos1{
+	display: flex;
+}
+.equipos2{
+	display: none;
+}
+
+/*Grid de 4 elementos*/
+.grid_quarter{
+  float: left;
+  width: 23.5%;
+	padding:0.5%;
+	height: 100%;
+	font-size: 12pt;
+	text-align: justify;
+}
+
+/*grid de 2 elementos*/
+.grid_half{
+  float: left;
+  width: 48%;
+	padding:5px;
+	font-size: 12pt;
+	text-align: justify;
+}
+
+/*grid nuestra gente texto*/
+.text_nuestra{
+	height:500px;
+}
+
+/*Todo texto blanco*/
+.text_white{
+	float left;
+	color:white;
+	width: 100%;
+	height:auto;
+	padding:5px;
+	font-size: 12pt;
+	text-align: justify;
+	margin-bottom:10px;
+	background-color:#009538;
+}
+
+/*Todo texto negro*/
+.text_black{
+	padding:5px;
+	font-size: 12pt;
+	text-align: justify;
+	margin-bottom:5px;
+}
+
+/*sub-titulo*/
+.subtitle{
+	font-weight:bold;
+	padding:5px;
+}
+
+
+
+/*Imagenes de la pagina*/
+.page_images{
+	padding:15px;
+}
+
+
+
+.nuestra2{
+	display:none;
+}
+
+@media only screen and (max-width: 980px) {
+
+	.text_tittle{
+		font-size:16pt;
+	}
+
+	.tittle2{
+			font-size:14pt;
+	}
+	/*Bloque de division para elementos grid*/
+	.division_space{
+		content: "";
+		display: table;
+		clear: both;
+		width: 100%;
+
+	}
+	.equipos1{
+		display: none;
+	}
+
+	.equipos2{
+		display: flex;
+	}
+
+	/*Grid de 4 elementos*/
+	.grid_quarter{
+	  width: 21%;
+		padding:0.5%;
+		height: 100%;
+		font-size: 12pt;
+		text-align: justify;
+		font-size:10pt;
+	}
+
+	/*grid de 2 elementos*/
+	.grid_half{
+	  float: left;
+	  width: 41%;
+		padding:2%;
+		font-size: 12pt;
+		text-align: justify;
+		margin-left:2%;
+	}
+
+
+	/*Todo texto blanco*/
+	.text_white{
+		float left;
+		color:white;
+		width: 100%;
+		height:auto;
+		padding:5px;
+		font-size: 12pt;
+		text-align: justify;
+		margin-bottom:10px;
+		background-color:#009538;
+	}
+
+	/*Todo texto negro*/
+	.text_black{
+		padding:5px;
+		font-size: 12pt;
+		text-align: justify;
+		margin-bottom:5px;
+	}
+
+	/*sub-titulo*/
+	.subtitle{
+		font-weight:bold;
+		text-align: center;
+	}
+
+.text_nuestra{
+	height:auto;
+	text-align:justify;
+	font-size:11pt;
+}
+
+	/*Imagenes de la pagina*/
+	.page_images{
+		padding:15px;
+
+	}
+
+	.nuestra1{
+		display:none;
+	}
+
+	.nuestra2{
+		display:flex;
+	}
+
+}
+

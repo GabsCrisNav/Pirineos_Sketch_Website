@@ -7,29 +7,29 @@
   <link href="images/logo.png" rel="shortcut icon" type="image/png">
   <link href="css/home.css" rel="stylesheet" type="text/css">
   <script src="js/index_s.js" type="text/JavaScript"></script>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="Productos.html">Harinas de Trigo</a>
-    <a href="Productos.html">Harinas Preparadas BakeryMix®</a>
-    <a href="Productos.html">Harinas de Trigo para el Hogar</a>
-    <a href="Productos.html">Derivados de trigo</a>
-    <a href="Productos.html">Mejorantes RendiMix®</a>
-    <a href="Productos.html">Contacto</a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="harinas_de_trigo.php">Harinas de Trigo</a>
+    <a href="Productos.php">Harinas Preparadas BakeryMix®</a>
+    <a href="harinas_para_el_hogar.php">Harinas de Trigo para el Hogar</a>
+    <a href="derivados_de_trigo.php">Derivados de trigo</a>
+    <a href="Productos_RendiMix.php">Mejorantes RendiMix®</a>
+    <a href="Contacto.html">Contacto</a>
 </div>
 
   <!-- Barra de bússqeda e iconos-->
-  <form class="busqueda_header">
+  <form class="busqueda_header" method="GET" >
         <!--BARRA DE BUSQUEDA-->
           <div class="bloque_barra">
-            <input type="text" placeholder="Buscar..." class="barra_busqueda">
+            <input  name="search_text" type="text" placeholder="Buscar..." class="barra_busqueda" />
+            <input type="submit"  value="Submit" onClick="search_input(this.form)"hidden >
           </div>
           <div class="call_text_container"><span class = "y_text_call">Llama ahora: </span><span class = "w_text_call">01 800 464 9600</span></div>
-          <a class="fa fa-facebook-square"></a>
-          <a class="fa fa-instagram"></a>
-          <a class="fa fa-pinterest"></a>
+          <a class="fa fa-facebook-square" href="https://www.facebook.com/impulsopirineos/"></a>
   </form>
 
   <!-- Menu y Logo-->
@@ -46,53 +46,117 @@
 
         <!-- MENU PRINCIPAL-->
         <nav class="bloque_menu" >
-          <a href="Productos.html" class="titulo_menu" style = "padding: 6% 3% 5% 3%;">Harinas de Trigo</a><div class="line_div"></div>
-          <a href="Productos.html" class="titulo_menu" style = "padding: 5% 3% 5% 3%;">Harinas Preparadas BakeryMix®</a><div class="line_div"></div>
-          <a href="Productos.html" class="titulo_menu" style = "padding: 5% 3% 5% 3%;">Harinas de Trigo para el Hogar</a><div class="line_div"></div>
-          <a href="Productos.html" class="titulo_menu" style = "padding: 6% 3% 5% 3%;">Derivados de trigo</a><div class="line_div"></div>
-          <a href="Productos.html" class="titulo_menu" style = "padding: 6% 3% 5% 3%;">Mejorantes RendiMix®</a><div class="line_div"></div>
-          <a href="Productos.html" class="titulo_menu" style = "padding: 6.5% 3% 5% 3%;">Contacto</a>
+          <a href="harinas_de_trigo.php" class="titulo_menu" style = "padding: 6% 3% 5% 3%;">Harinas de Trigo</a><div class="line_div"></div>
+          <a href="Productos.php" class="titulo_menu" style = "padding: 5% 3% 5% 3%;">Harinas Preparadas BakeryMix®</a><div class="line_div"></div>
+          <a href="harinas_para_el_hogar.php" class="titulo_menu" style = "padding: 5% 3% 5% 3%;">Harinas de Trigo para el Hogar</a><div class="line_div"></div>
+          <a href="derivados_de_trigo.php" class="titulo_menu" style = "padding: 6% 3% 5% 3%;">Derivados de trigo</a><div class="line_div"></div>
+          <a href="Productos_RendiMix.php" class="titulo_menu" style = "padding: 6% 3% 5% 3%;">Mejorantes RendiMix®</a><div class="line_div"></div>
+          <a href="Contacto.html" class="titulo_menu" style = "padding: 6.5% 3% 5% 3%;">Contacto</a>
         </nav>
-
   </div>
 
   <!-- Banner -->
-  <div class="bloque_banner">
-    <img  class="banner" src="images/banner_home.png"></img>
+  <div class="bloque_slider">
+      <section class="section_slider">
+        <div class="slider_pirineos">
+          <div class="slide_pirineos">
+            <input type="radio" name="radio-btn" id="radio1" checked>
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slider_img first">
+              <img src="images/banner_home.png">
+            </div>
+            <div class="slider_img">
+              <img src="images/banner_home_2.jpg">
+            </div>
+            <div class="slider_img">
+              <img src="images/banner_home_3.jpg">
+            </div>
+            <div class="slider_img">
+              <img src="images/banner_home_4.jpg">
+            </div>
+
+            <div class="nav-auto">
+              <div class="a-b1"></div>
+              <div class="a-b2"></div>
+              <div class="a-b3"></div>
+              <div class="a-b4"></div>
+            </div>
+          </div>
+
+          <div class="nav-m">
+            <label for="radio1" class="m-btn"></label>
+            <label for="radio2" class="m-btn"></label>
+            <label for="radio3" class="m-btn"></label>
+            <label for="radio4" class="m-btn"></label>
+          </div>
+        </div>
+      </section>
+
+      <script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+          document.getElementById('radio' + counter).checked=true;
+          counter++;
+          if(counter > 4){
+            counter = 1;
+          }
+        },10000);
+      </script>
   </div>
 
   <!--Sección ALIADOS -->
   <div class="bloque_aliados">
-      <div class = "texto_aliados">
+      <div class = "texto_aliados" >
         <h2 class="titulo_aliadosyquienes" align="center"> Los aliados </br>   en tu trabajo</h2>
         <div class="line_div_horizontal"></div>
       </div>
-      <div class="slideshow-container">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <div class="slideshow-container" class="col-12">
+        <center><iframe  class="video" src="https://www.youtube.com/embed/Dn1qj4xtohA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </center>
       </div>
   </div>
 
-  <!--Sección TECNOLOGÍA -->
-    <!--PONER BOTON DEBAJO DE IMAGEN PARA ALINEAR CON EL TEXTO ARREGLAR DIV DE IMAGEN -->
-  <div class="bloque_tecnologia">
-      <div class="imagen_tecnologia_con">
-        <img  class="imagen_tecnologia" src="images/imagen1_home.jpg"></img>
+  <div class="bloque_aliados" style = "background-color: #34493c;height: 63vh;flex-direction: column">
+    <div style = "display: flex; flex-direction: row;">
+      <div style = "display: flex; flex-direction:column">
+      <div class = "texto_aliados" >
+        <h2 class="titulo_aliadosyquienes" align="center">Impulso Pirineos</h2>
+        <div class="line_div_horizontal"></div>
+        <div class = "tech_text_container">
+          <div class = "tech_text_box">
+          <p class="texto_tecnologia" align="center" style = "font-size: 22px;">Comprometidos en entregrarte lo mejor para tu vida, nuestros equipos son de la más alta calidad y contamos con modernas técnicas que brindan de alta calidad y eficiencia con la producción. Tambien nos aseguramos que nuestros productos esten libres de plagas gracias a <b>Thermonox</b>. Así mismo, nuestros 4 centros de distribución están gestionados bajo un estricto sistema de calidad para garantizar la integridad de nuestros productos.</p>
+          </div>
+        </div>
+
       </div>
-      <div class = "tech_text_container">
+    </div>
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fimpulsopirineos%2F&tabs=timeline&width=340&height=300&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="340" height="300" style="border:none;overflow:hidden;padding-top: 21px;padding-left: 94px;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div>
+
+  </div>
+
+  <!--Sección TECNOLOGÍA -->
+  <div class="bloque_tecnologia">
+      <div class="imagen_tecnologia_con" >
+        <img  class="imagen_tecnologia" src="images/tec_image1.JPG"></img>
+      </div>
+      <div class = "tech_text_container"class="col-12">
         <div class = "tech_text_box">
         <h2 class="titulo_tecnologia" align="center"> Tecnología</h2>
         <div class="line_div_horizontal_tec"></div>
-        <p class="texto_tecnologia" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="texto_tecnologia" align="center">Comprometidos en entregrarte lo mejor para tu vida, nuestros equipos son de la más alta calidad y contamos con modernas técnicas que brindan de alta calidad y eficiencia con la producción. Tambien nos aseguramos que nuestros productos esten libres de plagas gracias a <b>Thermonox</b>. Así mismo, nuestros 4 centros de distribución están gestionados bajo un estricto sistema de calidad para garantizar la integridad de nuestros productos.</p>
         <a href="reto_pilares.html" class="link_tec">Conoce más</a>
         </div>
       </div>
   </div>
-  <div class="bloque_tecnologia2" style = "background-image: url('images/imagen1_home.jpg')">
+  <div class="bloque_tecnologia2" style = "background-image: url('images/tec_image1.JPG')">
       <div class = "tech_text_container">
         <div class = "tech_text_box">
         <h2 class="titulo_tecnologia" align="center"> Tecnología</h2>
         <div class="line_div_horizontal_tec"></div>
-        <p class="texto_tecnologia" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="texto_tecnologia" align="center">Comprometidos en entregrarte lo mejor para tu vida, nuestros equipos son de la más alta calidad y contamos con modernas técnicas que brindan de alta calidad y eficiencia con la producción. Tambien nos aseguramos que nuestros productos esten libres de plagas gracias a <b>Thermonox</b>. Así mismo, nuestros 4 centros de distribución están gestionados bajo un estricto sistema de calidad para garantizar la integridad de nuestros productos.</p>
         <a href="reto_pilares.html" class="link_tec">Conoce más</a>
         </div>
       </div>
@@ -105,21 +169,21 @@
     <div class = "tech_text_container">
       <h2 class="titulo_how" align="center">Quienes Somos</h2>
       <div class="line_div_horizontal_tec"></div>
-      <p class="texto_how" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="texto_how" align="center">Somos el molino más grande de México con alta capacidad de tecnología y producción de 6 diferentes tipos de harinas y con el cumplimiento de estandares de calidad internacionales. Tenemos una historia de más de 20 años en la que nuestra organización ha evolucionado para brindarte con los mejores productos.</p>
       <a href="quienes_somos_ver_1.html" class="link_how">Conoce más</a>
     </div>
       <div class="imagen_tecnologia_con">
-        <img  class="imagen_tecnologia" src="images/imagen1_home.jpg"></img>
+        <img  class="imagen_tecnologia" src="images/quien_image1.jpg"></img>
       </div>
   </div>
 
-  <div class="bloque_Quienes2" style = "background-image: url(images/imagen1_home.jpg)">
+  <div class="bloque_Quienes2" style = "background-image: url(images/quien_image1.jpg)">
     <div class = "tech_text_container">
       <div class = "tech_text_box">
       <h2 class="titulo_tecnologia" align="center">Quienes Somos</h2>
       <div class="line_div_horizontal_tec"></div>
-      <p class="texto_tecnologia" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <a href="reto_pilares.html" class="link_tec">Conoce más</a>
+      <p class="texto_tecnologia" align="center">Somos el molino más grande de México con alta capacidad de tecnología y producción de 6 diferentes tipos de harinas y con el cumplimiento de estandares de calidad internacionales. Tenemos una historia de más de 20 años en la que nuestra organización ha evolucionado para brindarte con los mejores productos.</p>
+      <a href="quienes_somos_ver_1.html" class="link_tec">Conoce más</a>
       </div>
     </div>
   </div>
@@ -135,22 +199,19 @@
       <div class="bloque_boletin">
         <h3 class="titulos_footer" >Boletín</h3>
         <p><a href="#" class="texto_footer">Aviso de privacidad </a></p>
-        <p><a href="#" class="texto_footer">Encuentra tu distribuidor</a></p>
-        <p><a href="#" class="texto_footer">Aviso de privacidad</a></p>
+        <p><a href="Contacto.html" class="texto_footer">Encuentra tu distribuidor</a></p>
+        <p><a href="preguntas_frecuentes.html" class="texto_footer">Preguntas Frecuentes</a></p>
       </div>
       <div class="bloque_redes">
-        <h3 class="titulos_footer">Descragas PDF</h3>
-        <p><a href="#" class="texto_footer">Descarga nuestros catálogos </a></p>
-
+        <h3 class="titulos_footer">Contenidos</h3>
+        <p><a href="recetario_trial.html" class="texto_footer">Recetario</a></p>
       </div>
       <div class="bloque_bolsa">
         <h3 class="titulos_footer">Bolsa de Trabajo</h3>
-        <p><a href="#"class="texto_footer">Intregate a nuestro equipo </a></p>
+        <p><a href="Contacto.html"class="texto_footer">Intregate a nuestro equipo </a></p>
         <h3 class="titulos_footer" align="right">Siguenos en:</h3>
         <form action="#">
-            <a href="#" target="_blank" class="fa fa-pinterest"></a>
-            <a href="#" target="_blank" class="fa fa-instagram"></a>
-            <a href="#" target="_blank" class="fa fa-facebook-square"></a>
+            <a href="https://www.facebook.com/impulsopirineos/" target="_blank" class="fa fa-facebook-square"></a>
         </form>
       </div>
     </div>
