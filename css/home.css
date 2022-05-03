@@ -285,7 +285,7 @@ body {
 /*Allies info*/
 /*Allies container*/
 .bloque_aliados{
-  height: 47vh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -308,6 +308,7 @@ body {
 
 /*Allies text*/
 .texto_aliados{
+  margin-top:-3%;
   width: 100%;
   height: auto;
 }
@@ -324,17 +325,15 @@ body {
 
 /*Slideshow Allies*/
 .slideshow-container{
-  padding:15%;
-  float: right;
   width: 100%;
-  padding: 0.5% 5%
+  height:55vH;
+  padding: 0.5%
 }
 
 .video{
-  margin-top:4%;
-  float:right;
-  width:90%;
-  height:40vh;
+  margin-top:1%;
+  width:50%;
+  height:50vH;
   align-items: center;
 
 }
@@ -579,13 +578,33 @@ Optimize for medium devices, from 450px to 980px
     margin-left: 12%;
   }
 
-  /*Ajust the allies block*/
+/*Ajust the allies block*/
   .bloque_aliados{
-    height: 22vh;
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    background-color: #009538;
+  }
+
+  .texto_aliados{
+    width: 100%;
   }
 
   .titulo_aliadosyquienes{
-    font-size: 16pt;}
+    font-size: 12pt;
+    margin-right:8%
+  }
+
+/*Adjust the slideshow container*/
+  .slideshow-container{
+      width: 100%;
+      font-size: 13px;
+    }
+
+  .video{
+      width:60%;
+      height:15vh;
+    }
 
   /*Disapears the original menu*/
   .bloque_menu {
@@ -616,12 +635,6 @@ Optimize for medium devices, from 450px to 980px
     margin-right: auto;
   }
 
-  /*Adjust the slideshow container*/
-  .slideshow-container{
-    width: 84%;
-    padding: 3.5% 3%;
-    font-size: 13px;
-  }
 
   .bloque_slider{
     max-width: 100%;
@@ -675,10 +688,7 @@ Optimize for medium devices, from 450px to 980px
     max-width: 100%
   }
 
-  .video{
-    width:100%;
-    height:15vh;
-  }
+ 
 
   /*Disapears the tecnology block for computers*/
   .bloque_tecnologia{
@@ -746,7 +756,7 @@ Optimize for medium devices, from 450px to 980px
 
   /*Ajust the footer container*/
   .bloque_footer {
-    height: 18vh;
+    height: 22vh;
     background-color: #194629;
     font-family: verdana;
     color: white;
