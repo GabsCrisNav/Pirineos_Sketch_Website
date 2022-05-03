@@ -21,6 +21,7 @@ $cbd=mysqli_select_db($cs,"pirineos_website");
             <th style = "top: 0;z-index: 2;position: sticky; background: white">titulo</th>
             <th style = "top: 0;z-index: 2;position: sticky; background: white">descripcion</th>
             <th style = "top: 0;z-index: 2;position: sticky; background: white">imagen</th>
+            <th style = "top: 0;z-index: 2;position: sticky; background: white">url</th>
         </tr>
 
 
@@ -46,7 +47,7 @@ $cbd=mysqli_select_db($cs,"pirineos_website");
                     $title_hdtpeh = $row['title_hdtpeh'];
                     $description_hdtpeh = $row['description_hdtpeh'];
                     $image_name_hdtpeh = $row['image_name_hdtpeh'];
-
+                    $url_hdtpeh = $row['url_hdtpeh'];
 
                       echo"
                       <tr>
@@ -55,6 +56,7 @@ $cbd=mysqli_select_db($cs,"pirineos_website");
                         <th>$title_hdtpeh</th>
                         <th>$description_hdtpeh</th>
                         <th>$image_name_hdtpeh</th>
+                        <th>$url_hdtpeh</th>
                       <tr>
                         <td>
                         <form action='?id_hdtpeh= $id_hdtpeh' method='post'>
@@ -116,6 +118,11 @@ $cbd=mysqli_select_db($cs,"pirineos_website");
             <td>
                     <input type="text" name="image_name">
             </td>
+            <tr>
+                <td>Indica el link: </td>
+            <td>
+                    <input type="text" name="url_name">
+            </td>
         </tr>
 
             <tr>
@@ -139,8 +146,8 @@ $cbd=mysqli_select_db($cs,"pirineos_website");
               $title = $_POST['title'];
               $description = $_POST['description'];
               $image_name = $_POST['image_name'];
-
-              $query = "INSERT INTO  `harinas_harinas_de_trigo_para_el_hogar`( `name_hdtpeh`, `title_hdtpeh`, `description_hdtpeh`, `image_name_hdtpeh`)  VALUES ('$nombre','$title','$description','$image_name')";
+              $url_name = $_POST['url_name'];
+              $query = "INSERT INTO  `harinas_harinas_de_trigo_para_el_hogar`( `name_hdtpeh`, `title_hdtpeh`, `description_hdtpeh`, `image_name_hdtpeh` , `url_hdtpeh`)  VALUES ('$nombre','$title','$description','$image_name','$url_name')";
 
               //Execute the query
               $sql = mysqli_query($cs,$query);
@@ -186,6 +193,7 @@ $cbd=mysqli_select_db($cs,"pirineos_website");
                 $title_hdtpeh = $row['title_hdtpeh'];
                 $description_hdtpeh = $row['description_hdtpeh'];
                 $image_name_hdtpeh = $row['image_name_hdtpeh'];
+                $url_hdtpeh = $row['url_hdtpeh'];
 
             }
 
@@ -230,6 +238,11 @@ $cbd=mysqli_select_db($cs,"pirineos_website");
                         <td>
                                 <input type="text" name="image_name" value="<?php echo $image_name_hdtpeh; ?>">
                         </td>
+                        <tr>
+                            <td>Indica el link: </td>
+                        <td>
+                                <input type="text" name="url_name" value="<?php echo $url_hdtpeh; ?>">
+                        </td>
                     </tr>
 
                         <tr>
@@ -258,9 +271,10 @@ $cbd=mysqli_select_db($cs,"pirineos_website");
                         $title = $_POST['title'];
                         $description = $_POST['description'];
                         $image_name = $_POST['image_name'];
+                        $url_name = $_POST['url_name'];
 
                         //4. Update the Food in Database
-                        $query2 = "UPDATE `harinas_harinas_de_trigo_para_el_hogar` SET `name_hdtpeh`='$nombre',`title_hdtpeh`='$title',`description_hdtpeh`='$description',`image_name_hdtpeh`='$image_name' WHERE id_hdtpeh = $id_hdtpeh";
+                        $query2 = "UPDATE `harinas_harinas_de_trigo_para_el_hogar` SET `name_hdtpeh`='$nombre',`title_hdtpeh`='$title',`description_hdtpeh`='$description',`image_name_hdtpeh`='$image_name', `url_hdtpeh`='$url_name'  WHERE id_hdtpeh = $id_hdtpeh";
 
 
                         //Execute query
