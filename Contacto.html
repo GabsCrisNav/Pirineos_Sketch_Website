@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <title>Contacto - Pirineos</title>
   <link href="images/logo_pirineos.png" rel="shortcut icon" type="image/png">
-  <link rel="stylesheet" type="text/css" href="css/contacto.css">
-  <link href="css/home.css" rel="stylesheet" type="text/css">
+  <link href="css/allstyle.css" rel="stylesheet" type="text/css">
+  <link href="css/allstyle_responsive.css" rel="stylesheet" type="text/css">
   <script src="js/index_s.js" type="text/JavaScript"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -86,6 +86,7 @@
   				<p class="texto_contacto">Para nosotros nos resulta de suma importancia saber tus opiniones, quejas y sugerencias, así como recibir cualuqier otros datos que nos quieras dar</p>
   				<p class="texto_contacto" id="texto_campos_formulario"><b>Los campos con * son necesarios rellenarlos, sin embargo brindarnos la demás información nos facilitará poder contactarnos contigo<b></p>
           </div>
+          <div class="form_block">
           <select name="motivo" class="contacto_input" required>
             <option selected disabled id="color_select">Indique el motivo del mensaje*</option>
             <option value="Contacto">Consulta</option>
@@ -98,7 +99,8 @@
   				<input type="text" name="correo" placeholder="Correo elétronico*" class="contacto_input" required>
   				<textarea name="mensaje" placeholder="Mensaje" class="contacto_input" id="contacto_textarea"></textarea>
   				<input type="submit" value="Enviar" id="boton_formulario">
-  			</form>
+        </div>
+        </form>
   		</div>
   	</div>
 
@@ -171,7 +173,6 @@
         </form>
       </div>
     </div>
-      
+
 </body>
 </html>
-  
