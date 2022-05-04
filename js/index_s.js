@@ -19,19 +19,19 @@ function search_input (form) {
     const value = userInput.toLowerCase();
 
     if (trigo.includes(value)) {
-      window.open("harinas_de_trigo.html")
+      window.open("harinas_de_trigo.php")
     }
     if (bakery.includes(value)) {
-      window.open("Productos.html")
+      window.open("Productos.php")
     }
     if (derivados.includes(value)) {
-      window.open("derivados_de_trigo.html")
+      window.open("derivados_de_trigo.php")
     }
     if (hogar.includes(value)) {
-      window.open("harinas_para_el_hogar.html")
+      window.open("harinas_para_el_hogar.php")
     }
     if (rendimix.includes(value)) {
-      window.open("Productos_RendiMix.html")
+      window.open("Productos_RendiMix.php")
     }
     if (contacto.includes(value)) {
       window.open("Contacto.html")
