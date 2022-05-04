@@ -9,6 +9,43 @@ body {
 
 }
 
+/*----------------------------------------------------------------------------*/
+/*Home page styles*/
+/*impulso pirineos*/
+/*impulso pirineos* container*/
+.bloque_impulso{
+  background-color: #34493c;
+  height: 52vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.impulso_distribution{
+  display: flex;
+  flex-direction:column;
+  width: 50%;
+}
+
+.text_container_impulso{
+  margin-bottom: 0%;
+  font-family: verdana;
+  color: white;
+  margin-left: 5%;
+}
+
+.p_container_impulso{
+  width: 80%;
+  font-family: verdana;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.impulse_container_fb{
+  width: 50%;
+  padding: 2% 0% 0% 15%;
+}
+
 
 /*----------------------------------------------------------------------------*/
 /*Search bar*/
@@ -539,7 +576,6 @@ body {
   color: black;
 }
 
-
 /*Responsive styles when the screen reaches 980px, works better for mobiles
 Optimize for medium devices, from 450px to 980px
 */
@@ -782,5 +818,24 @@ Optimize for medium devices, from 450px to 980px
     width: 75%;
     background-color: #f4f4f4;
     height: 100%;
+  }
+  .bloque_impulso{
+    background-color: #34493c;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .impulso_distribution{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+  }
+
+  .impulse_container_fb{
+    width: 80%;
+    padding: 0% 0% 0% 13%;
+    height: 60%;
   }
 }

@@ -268,32 +268,12 @@ a{
 /*----------------------------------------------------------------------------*/
 /*Allies info*/
 /*Allies container*/
-.bloque_aliados{
-  height: 25vh;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  background-color: #009538;
-}
+
 
 /*Tittle Allies*/
-.titulo_aliadosyquienes{
-  font-weight: bold;
-  font-family: verdana;
-  color: white;
-  padding: 5% 10% 1% 20%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3px;
-  width: 60%;
-  text-align: left;
-}
 
-/*Allies text*/
-.texto_aliados{
-  width: 45%;
-  height: auto;
-}
+
+
 
 /*Line underline*/
 .line_div_horizontal{
@@ -397,6 +377,42 @@ a{
   display: none;
 }
 
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*Home page styles*/
+/*impulso pirineos*/
+/*impulso pirineos* container*/
+.bloque_impulso{
+  background-color: #34493c;
+  height: 52vh;"
+}
+
+.impulso_distribution{
+  display: flex;
+  flex-direction:column;
+  width: 50%;
+  margin-top: 2%;
+}
+
+.text_container_impulso{
+  margin-bottom: 0%;
+  font-family:
+  verdana; color: white;
+  margin-left: 5%;
+}
+
+.p_container_impulso{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.impulse_container_fb{
+  width: 50%;
+  width: 50%;
+  padding: 2% 0% 0% 15%;
+}
+
 /*Link How we are boton*/
 .link_how{
   text-decoration: none;
@@ -467,10 +483,6 @@ Optimize for medium devices, from 450px to 980px
     margin-left: 12%;
   }
 
-  /*Ajust the allies block*/
-  .bloque_aliados{
-    height: 26vh;
-  }
 
   /*Disapears the original menu*/
   .bloque_menu {
@@ -641,4 +653,3 @@ Optimize for medium devices, from 450px to 980px
   }
 
 }
-
