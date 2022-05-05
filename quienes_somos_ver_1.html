@@ -6,11 +6,9 @@
 	<title>Quienes Somos</title>
 	<link href="images/logo_pirineos.png" rel="shortcut icon" type="image/png">
 	<script src="js/index_s.js" type="text/JavaScript"></script>
-	<link href="css/home.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/boxes.css">
-	<link rel="stylesheet" type="text/css" href="css/pirineos_styles.css">
-	<link rel="stylesheet" type="text/css" href="css/pilares_styles.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/allstyle.css" rel="stylesheet" type="text/css">
+  	<link href="css/allstyle_responsive.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div id="mySidenav" class="sidenav">
@@ -18,7 +16,7 @@
     <a href="harinas_de_trigo.html">Harinas de Trigo</a>
     <a href="Productos.html">Harinas Preparadas BakeryMix®</a>
     <a href="harinas_para_el_hogar.html">Harinas de Trigo para el Hogar</a>
-    <a href="derivados_de_trigo.html">Deri  vados de trigo</a>
+    <a href="derivados_de_trigo.html">Derivados de trigo</a>
     <a href="Productos_RendiMix.html">Mejorantes RendiMix®</a>
     <a href="Contacto.html">Contacto</a>
 </div>
@@ -31,9 +29,9 @@
             <input type="submit"  value="Submit" onClick="search_input(this.form)"hidden >
           </div>
           <div class="call_text_container"><span class = "y_text_call">Llama ahora: </span><span class = "w_text_call">01 800 464 9600</span></div>
-          <a class="fa fa-facebook-square"></a>
-          <a class="fa fa-instagram"></a>
-          <a class="fa fa-pinterest"></a>
+          <a href="https://www.facebook.com/pastaslamoderna" target="_blank" class="fa fa-facebook-square"></a>
+          <a href="https://www.instagram.com/lamoderna_mx/?hl=es" target="_blank" class="fa fa-instagram"></a>
+          <a href="https://www.pinterest.com.mx/nutriendotuvida/_created/" target="_blank" class="fa fa-pinterest"></a>
   </form>
 
   <!-- Menu y Logo-->
@@ -61,124 +59,178 @@
 
 <!-- Banner -->
   <div class="bloque_slider">
-      <section class="section_slider">
-        <div class="slider_pirineos">
-          <div class="slide_pirineos">
-            <input type="radio" name="radio-btn" id="radio1" checked>
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-
-            <div class="slider_img first">
-              <img src="images/banner_home.png">
-            </div>
-            <div class="slider_img">
-              <img src="images/banner_home_2.jpg">
-            </div>
-            <div class="slider_img">
-              <img src="images/banner_home_3.jpg">
-            </div>
-            <div class="slider_img">
-              <img src="images/banner_home_4.jpg">
-            </div>
-
-            <div class="nav-auto">
-              <div class="a-b1"></div>
-              <div class="a-b2"></div>
-              <div class="a-b3"></div>
-              <div class="a-b4"></div>
-            </div>
-          </div>
-
-          <div class="nav-m">
-            <label for="radio1" class="m-btn"></label>
-            <label for="radio2" class="m-btn"></label>
-            <label for="radio3" class="m-btn"></label>
-            <label for="radio4" class="m-btn"></label>
-          </div>
-        </div>
-      </section>
-
-      <script type="text/javascript">
-        var counter=1;
-        setInterval(function(){
-          document.getElementById('radio' + counter).checked=true;
-          counter++;
-          if(counter > 4){
-            counter = 1;
-          }
-        },6000);
-      </script>
+    <img class="imagen_slider" src="images/banner_home.png"></img>
   </div>
 
-<div class = "we_container">
+<div class = "we_container" id="we_container">
 <!--Fabricación-->
 <div>
-	<h1 class="header_q_s" style="color:white">Quienes somos</h1>
+	<h1 class="header_q_s">Quienes somos</h1>
 	<h2>Harinera Los Pirineos filial de Grupo La Moderna</h2>
-	<div class="division_space" style="background-color:#009538">
-			<div  class="text_white">
-					<p class="subtitle1">Harinera Los Pirineos </p>
-					<div class="line_div_horizontal" align="center"></div>
-					<p class="text-quienes"><b>Filial de Grupo La Moderna</b></p>
-					<p class="text-quienes"> Es el molino más grande de México en la producción harinas preparadas para consumo en el hogar e industrial y uno de los compradores más importantes de la producción de trigo en México.</p>
-				</div>
-				<div class="text_white"style="background-color:#009538">
-					<p class="subtitle">La producción de nuestros productos se divide en seis segmentos de mercado:</p>
-					<div class="line_div_horizontal" align="center"></div>
-					<ul class="text-quienes">
-						<li class="list_q_s">Harinas de trigo</li>
-						<li class="list_q_s" >Harinas preparadas</li>
-						<li class="list_q_s">Mejorantes para panificación</li>
-						<li class="list_q_s">Polvo para hornear</li>
-						<li class="list_q_s">Derivados de trigo</li>
-						<li class="list_q_s">Harinas para el Hogar</li>
-					</ul>
-				<p>Nuestras líneas de producción de alta tecnología y capacidad pueden entregar producto terminado en cualquier presentación desde 50gr hasta supersacos de 1 tonelada.</p>
-				<p>La fabricación de nuestras harinas se realiza en equipos de la más alta tecnología que nos permiten el cumplimiento de los más altos estándares internacionales de calidad, inocuidad, seguridad, legalidad y autenticidad. (Logotipos BRCGS, C-TPAT, FDA / FSMA, CRESE, Kosher).</p>
-				</div>
 </div>
 
 
+				<div class="text_quienes">
+						<div  class="text_white">
+								<p class="subtitle" style="font-size:16pt">Harinera Los Pirineos </p>
+								<div class="line_div_horizontal" style="width:20%; margin-right:70%"></div>
+								<p style="font-size:14pt">Filial de Grupo La Moderna</p>
+								<p style="font-size:12pt"> Es el molino más grande de México en la producción harinas preparadas para consumo en el hogar e industrial y uno de los compradores más importantes de la producción de trigo en México.</p>
+								<p class="subtitle">La producción de nuestros productos se divide en seis segmentos de mercado:</p>
+								<div class="line_div_horizontal" style="width:20%; margin-right:70%"></div>
+								<ul class="list_q_s">
+									<li>Harinas de trigo</li>
+									<li>Harinas preparadas</li>
+									<li>Mejorantes para panificación</li>
+									<li>Polvo para hornear</li>
+									<li>Derivados de trigo</li>
+									<li>Harinas para el Hogar</li>
+								</ul>
+							<p>Nuestras líneas de producción de alta tecnología y capacidad pueden entregar producto terminado en cualquier presentación desde 50gr hasta supersacos de 1 tonelada.</p>
+							<p>La fabricación de nuestras harinas se realiza en equipos de la más alta tecnología que nos permiten el cumplimiento de los más altos estándares internacionales de calidad, inocuidad, seguridad, legalidad y autenticidad. (Logotipos BRCGS, C-TPAT, FDA / FSMA, CRESE, Kosher).</p>
+								<center><img src="images/image_quienes1.jpg" style="width:65%; padding:2.5%" class="page_images"></center>
+							</div>
+						</div>
+
+
 <!--Evolución-->
-<h2 class="header_q_S" style="font-size:20pt"> Evolución / Cronología </h2>
+<h2> Evolución / Cronología </h2>
+
 <div class="bloque_crono">
-	<div class="container"><p class="crono_texto">Grupo TABLEX adquiere los activos de la Sociedad Molinos y Campesinos S.A. de C.V., nace así Harinera Los Pirineos, S.A. de C.V.<p><br>
+	<div class="container" style="margin-left:10%">
+		<center><img src="images/Pirineos_image.png"></center>
+		<p >Grupo TABLEX adquiere los activos de la Sociedad Molinos y Campesinos S.A. de C.V., nace así Harinera Los Pirineos, S.A. de C.V.</p>
 		<div class="label">1988</div>
-		<img src="images/Pirineos_image.png">
 	</div>
-	<div class="container"><p class="crono_texto">Se construye la bodega de Abasolo, Gto., zona de alta producción de trigo en el Bajío y tambien se adquiere La Montaña, S.A. de C.V. ubicada en Irapuato, Gto.</p>
+	<div class="container">
+		<center><img src="images/cronologia_img_2.jpg"></center>
+		<p>Se construye la bodega de Abasolo, Gto., zona de alta producción de trigo en el Bajío y tambien se adquiere La Montaña, S.A. de C.V. ubicada en Irapuato, Gto.</p>
 		<div class="label">1991-1996</div>
-		<img src="images/cronologia_img_2.jpg">
 	</div>
-	<div class="container"><p class="crono_texto">Se fusiona OPISECSA a Harinera Los Pirineos, dando origen al centro receptor de grano de Villagrán, Gto.</p><br><br>
+	<div class="container">
+		<center><img src="images/cronologia_img_3.jpg"></center>
+		<p>Se fusiona OPISECSA a Harinera Los Pirineos, dando origen al centro receptor de grano de Villagrán, Gto.</p>
 		<div class="label">2001</div>
-		<img src="images/cronologia_img_3.jpg">
 	</div>
-	<div class="container"><p class="crono_texto">Grupo La Moderna adquiere la marca Tres Estrellas, siendo la planta de Harinera Los Pirineos la responsable del desarrollo y fabricación de harinas preparadas bajo esta marca.</p>
+	<div class="container" style="margin-left:10%">
+		<center><img src="images/cronologia_img_4.jpg"></center>
+		<p>Grupo La Moderna adquiere la marca Tres Estrellas, siendo la planta de Harinera Los Pirineos la responsable del desarrollo y fabricación de harinas preparadas bajo esta marca.</p>
 		<div class="label">2002</div>
-		<img src="images/cronologia_img_4.jpg">
 	</div>
-	<div class="container"><p class="crono_texto">Harinera Los Pirineos moderniza su proceso de molienda de trigo en Salamanca e Irapuato. Se crea el área de investigación y desarrollo de mezclas continuas de harina blanca.</p>
+	<div class="container">
+		<center><img src="images/cronologia_img_5.jpg"></center>
+		<p>Harinera Los Pirineos moderniza su proceso de molienda de trigo en Salamanca e Irapuato. Se crea el área de investigación y desarrollo de mezclas continuas de harina blanca.</p>
 		<div class="label">2004-2008</div>
-		<img src="images/cronologia_img_5.jpg">
 	</div>
-	<div class="container"><p class="crono_texto">Se construye la planta de harinas preparadas con la más alta tecnología disponible en mezclado, envasado y empaquetado. Nos convertimos en el primer molino de trigo con una planta de harinas preparadas integrada.</p>
+	<div class="container">
+		<center><img src="images/cronologia_img_6.jpg"></center>
+		<p>Se construye la planta de harinas preparadas con la más alta tecnología disponible en mezclado, envasado y empaquetado. Nos convertimos en el primer molino de trigo con una planta de harinas preparadas integrada.</p>
 		<div class="label">2009-2011</div>
-		<img src="images/cronologia_img_6.jpg">
 	</div>
-	<div class="container"><p class="crono_texto">Se instala un tercer equipo de molienda para trigos suaves, una línea de fabricación de trigo laminado, equipo de envasado, además de que se adquiere el sistema de control de plagas a base de calor, denominado Thermonox.</p>
+	<div class="container" style="margin-left:10%">
+		<center><img src="images/cronologia_img_7.jpg"></center>
+		<p>Se instala un tercer equipo de molienda para trigos suaves, una línea de fabricación de trigo laminado, equipo de envasado, además de que se adquiere el sistema de control de plagas a base de calor, denominado Thermonox.</p>
 		<div class="label">2013-2015</div>
-		<img src="images/cronologia_img_7.jpg">
 	</div>
-	<div class="container"><p class="crono_texto">Se inicia el proyecto de ampliación en la capa classad de molienda de la Planta Irapuato y el proyecto de Ferropuerto La Moderna en Villagrán, Gto. Los dos proyectos son finalizados y entran en operaciones en 2018 y 2019, respectivamente.</p>
+	<div class="container">
+		<center><img src="images/cronologia_img_8.jpg"></center>
+		<p>Se inicia el proyecto de ampliación en la capa classad de molienda de la Planta Irapuato y el proyecto de Ferropuerto La Moderna en Villagrán, Gto. Los dos proyectos son finalizados y entran en operaciones en 2018 y 2019, respectivamente.</p>
 		<div class="label">2017-2019</div>
-		<img src="images/cronologia_img_8.jpg">
 	</div>
-	<div class="container"><p class="crono_texto">Se instala la planta de ósmosis inversa en planta Salamanca, para el tratamiento de agua proceso.<br><br><br>
+	<div class="container">
+		<center><img src="images/cronologia_img_9.jpg"></center>
+	<p>Se instala la planta de ósmosis inversa en planta Salamanca, para el tratamiento de agua proceso.</p>
 		<div class="label">2020</div>
-		<img src="images/cronologia_img_9.jpg" class="crono_img_9">
 	</div>
+</div>
+
+<div class="bloque_crono2">
+	<div class="container" style="margin-left:5%">
+		<center><img src="images/Pirineos_image.png" style="margin-top:2%"></center>
+		<p >Grupo TABLEX adquiere los activos de la Sociedad Molinos y Campesinos S.A. de C.V., nace así Harinera Los Pirineos, S.A. de C.V.</p>
+		<div class="label">1988</div>
+	</div>
+	<div class="container">
+		<center><img src="images/cronologia_img_2.jpg"></center>
+		<p>Se construye la bodega de Abasolo, Gto., zona de alta producción de trigo en el Bajío y tambien se adquiere La Montaña, S.A. de C.V. ubicada en Irapuato, Gto.</p>
+		<div class="label">1991-1996</div>
+	</div>
+	<div class="container" style="margin-left:5%">
+		<center><img src="images/cronologia_img_3.jpg"></center>
+		<p>Se fusiona OPISECSA a Harinera Los Pirineos, dando origen al centro receptor de grano de Villagrán, Gto.</p>
+		<div class="label">2001</div>
+	</div>
+	<div class="container">
+		<center><img src="images/cronologia_img_4.jpg"></center>
+		<p>Grupo La Moderna adquiere la marca Tres Estrellas, siendo la planta de Harinera Los Pirineos la responsable del desarrollo y fabricación de harinas preparadas bajo esta marca.</p>
+		<div class="label">2002</div>
+	</div>
+	<div class="container"  style="margin-left:5%">
+		<center><img src="images/cronologia_img_5.jpg"></center>
+		<p>Harinera Los Pirineos moderniza su proceso de molienda de trigo en Salamanca e Irapuato. Se crea el área de investigación y desarrollo de mezclas continuas de harina blanca.</p>
+		<div class="label">2004-2008</div>
+	</div>
+	<div class="container">
+		<center><img src="images/cronologia_img_6.jpg"></center>
+		<p>Se construye la planta de harinas preparadas con la más alta tecnología disponible en mezclado, envasado y empaquetado. Nos convertimos en el primer molino de trigo con una planta de harinas preparadas integrada.</p>
+		<div class="label">2009-2011</div>
+	</div>
+	<div class="container"  style="margin-left:5%">
+		<center><img src="images/cronologia_img_7.jpg"></center>
+		<p>Se instala un tercer equipo de molienda para trigos suaves, una línea de fabricación de trigo laminado, equipo de envasado, además de que se adquiere el sistema de control de plagas a base de calor, denominado Thermonox.</p>
+		<div class="label">2013-2015</div>
+	</div>
+	<div class="container">
+		<center><img src="images/cronologia_img_8.jpg"></center>
+		<p>Se inicia el proyecto de ampliación en la capa classad de molienda de la Planta Irapuato y el proyecto de Ferropuerto La Moderna en Villagrán, Gto. Los dos proyectos son finalizados y entran en operaciones en 2018 y 2019, respectivamente.</p>
+		<div class="label">2017-2019</div>
+	</div>
+	<div class="container"  style="margin-left:30%">
+		<center><img src="images/cronologia_img_9.jpg"></center>
+		<p>Se instala la planta de ósmosis inversa en planta Salamanca, para el tratamiento de agua proceso.</p>
+		<div class="label">2020</div>
+	</div>
+</div>
+
+<div class="bloque_crono3">
+	<div class="container" style="margin-left:7%">
+		<p >Grupo TABLEX adquiere los activos de la Sociedad Molinos y Campesinos S.A. de C.V., nace así Harinera Los Pirineos, S.A. de C.V.</p>
+		<div class="label">1988</div>
+	</div>
+	<div class="container">
+		<p>Se construye la bodega de Abasolo, Gto., zona de alta producción de trigo en el Bajío y tambien se adquiere La Montaña, S.A. de C.V. ubicada en Irapuato, Gto.</p>
+		<div class="label">1991-1996</div>
+	</div>
+	<div class="container" style="margin-left:7%">
+		<p>Se fusiona OPISECSA a Harinera Los Pirineos, dando origen al centro receptor de grano de Villagrán, Gto.</p>
+		<div class="label">2001</div>
+	</div>
+	<div class="container">
+		<p>Grupo La Moderna adquiere la marca Tres Estrellas, siendo la planta de Harinera Los Pirineos la responsable del desarrollo y fabricación de harinas preparadas bajo esta marca.</p>
+		<div class="label">2002</div>
+	</div>
+	<div class="container"  style="margin-left:7%">
+		<p>Harinera Los Pirineos moderniza su proceso de molienda de trigo en Salamanca e Irapuato. Se crea el área de investigación y desarrollo de mezclas continuas de harina blanca.</p>
+		<div class="label">2004-2008</div>
+	</div>
+	<div class="container">
+		<p>Se construye la planta de harinas preparadas con la más alta tecnología disponible en mezclado, envasado y empaquetado. Nos convertimos en el primer molino de trigo con una planta de harinas preparadas integrada.</p>
+		<div class="label">2009-2011</div>
+	</div>
+	<div class="container"  style="margin-left:7%">
+		<p>Se instala un tercer equipo de molienda para trigos suaves, una línea de fabricación de trigo laminado, equipo de envasado, además de que se adquiere el sistema de control de plagas a base de calor, denominado Thermonox.</p>
+		<div class="label">2013-2015</div>
+	</div>
+	<div class="container">
+		<p>Se inicia el proyecto de ampliación en la capa classad de molienda de la Planta Irapuato y el proyecto de Ferropuerto La Moderna en Villagrán, Gto. Los dos proyectos son finalizados y entran en operaciones en 2018 y 2019, respectivamente.</p>
+		<div class="label">2017-2019</div>
+	</div>
+	<div class="container"  style="margin-left:32%">
+		<p>Se instala la planta de ósmosis inversa en planta Salamanca, para el tratamiento de agua proceso.</p>
+		<div class="label">2020</div>
+	</div>
+</div>
+
 </div>
 
 <!--FOOTER-->
@@ -191,26 +243,27 @@
       </div>
       <div class="bloque_boletin">
         <h3 class="titulos_footer" >Boletín</h3>
-        <p><a href="#" class="texto_footer">Aviso de privacidad </a></p>
-        <p><a href="#" class="texto_footer">Encuentra tu distribuidor</a></p>
-        <p><a href="#" class="texto_footer">Aviso de privacidad</a></p>
+        <p><a href="PDF/AVISO DE PRIVACIDAD.pdf" class="texto_footer">Aviso de privacidad </a></p>
+        <p><a href="Contacto.html" class="texto_footer">Encuentra tu distribuidor</a></p>
+        <p><a href="recetario_trial.html" class="texto_footer">Nuestro recetario</a></p>
+        <p><a href="preguntas_frecuentes.html" class="texto_footer">FAQ</a></p>
       </div>
       <div class="bloque_redes">
-          <h3 class="titulos_footer">Descargas PDF</h3>
-          <p><a href="recetario_trial.html" class="texto_footer">Descarga nuestros catálogos </a></p>
-        </div>
+        <h3 class="titulos_footer">Descargas PDF</h3>
+        <p><a href="PDF/catalogo_productos.pdf" class="texto_footer">Descarga nuestro catálogo</p>
+        <p><a href="PDF/" class="texto_footer">FAQ</a></p>
+      </div>
       <div class="bloque_bolsa">
         <h3 class="titulos_footer">Bolsa de Trabajo</h3>
-        <p><a href="#"class="texto_footer">Intregate a nuestro equipo </a></p>
+        <p><a href="Contacto.html"class="texto_footer">Intregate a nuestro equipo </a></p>
         <h3 class="titulos_footer" align="right">Siguenos en:</h3>
         <form action="#">
-            <a href="#" target="_blank" class="fa fa-pinterest"></a>
-            <a href="#" target="_blank" class="fa fa-instagram"></a>
-            <a href="#" target="_blank" class="fa fa-facebook-square"></a>
+            <a href="https://www.pinterest.com.mx/nutriendotuvida/_created/" target="_blank" class="fa fa-pinterest"></a>
+            <a href="https://www.instagram.com/lamoderna_mx/?hl=es" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.facebook.com/pastaslamoderna" target="_blank" class="fa fa-facebook-square"></a>
         </form>
       </div>
     </div>
-
 
 </body>
 </html>
