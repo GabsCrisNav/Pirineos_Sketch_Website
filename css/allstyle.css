@@ -886,10 +886,10 @@ a#pdf_productos_relacionados:hover{
 }
 
 .receta_box{
-  align-content: center;
+  align-content: left;
   height:auto;
-  width: auto;
-  padding:4%;
+  width: 46%;
+  padding:1.5%;
 }
 
 .img_receta{
