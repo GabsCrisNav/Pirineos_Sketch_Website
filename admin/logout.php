@@ -7,6 +7,10 @@
 
 
     //2. REdirect to Login Page
+<<<<<<< HEAD
     header('location:'.SITEURL.'login.php');
+=======
+    header('location:'.SITEURL.'admin/login.php');
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
 
     ?>

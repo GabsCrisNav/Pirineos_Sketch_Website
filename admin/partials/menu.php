@@ -1,7 +1,11 @@
 <?php
 
     include('../config/constants.php');
+<<<<<<< HEAD
     include('login-check.php');
+=======
+    //include('login-check.php');
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
 
 ?>
 <html>

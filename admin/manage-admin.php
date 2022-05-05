@@ -93,9 +93,15 @@
                                 <td><?php echo $full_name; ?></td>
                                 <td><?php echo $username; ?></td>
                             <td>
+<<<<<<< HEAD
                                 <a href="<?php echo SITEURL; ?>update-password.php?id=<?php echo $id; ?>" class="btn-primary">Change Password</a>
                                 <a href="<?php echo SITEURL; ?>update-admin.php?id=<?php echo $id; ?>" class="btn-secondary">Update Admin</a>
                                 <a href="<?php echo SITEURL; ?>delete-admin.php?id=<?php echo $id; ?>" class="btn-danger">Delete Admin</a>
+=======
+                                <a href="<?php echo SITEURL; ?>admin/update-password.php?id=<?php echo $id; ?>" class="btn-primary">Change Password</a>
+                                <a href="<?php echo SITEURL; ?>admin/update-admin.php?id=<?php echo $id; ?>" class="btn-secondary">Update Admin</a>
+                                <a href="<?php echo SITEURL; ?>admin/delete-admin.php?id=<?php echo $id; ?>" class="btn-danger">Delete Admin</a>
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
                             </td>
                         </tr>
 

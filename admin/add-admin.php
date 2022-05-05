@@ -66,7 +66,11 @@
         ";
 
         $conn = mysqli_connect('localhost', 'root', '') or die(mysqli_error());//Database Connection
+<<<<<<< HEAD
         $db_select = mysqli_select_db($conn, 'pirineos_website') or die(mysqli_error());//Selection Database
+=======
+        $db_select = mysqli_select_db($conn, 'harinas-ordenes') or die(mysqli_error());//Selection Database
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
 
         //3. Executing Query and Saving Data into Datbase
         $res = mysqli_query($conn, $sql) or die (mysqli_error($conn));
@@ -79,7 +83,11 @@
             //create a Session Variable to Display Message
              $_SESSION['add'] = "Admininistrador agregado exitosamente.";
              //redirect page
+<<<<<<< HEAD
              header("location:".SITEURL.'manage-admin.php');
+=======
+             header("location:".SITEURL.'admin/manage-admin.php');
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
         
         }
         else
@@ -89,7 +97,11 @@
             //Create a Session Variable to Display Message
             $_SESSION['add'] = "Error al agregar administrador";
             //Redirect page to Admin
+<<<<<<< HEAD
             header("location:".SITEURL.'manage-admin.php');
+=======
+            header("location:".SITEURL.'admin/manage-admin.php');
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
         }
     }
 

@@ -101,7 +101,11 @@
                                      //REdirect to Manage Admin Page with Error Message
                                      $_SESSION['change-pwd'] = "<div class='success'>Password changed succesfully. </div>";
                                      //Redirect the User
+<<<<<<< HEAD
                                     header('location:'.SITEURL.'manage-admin.php');   
+=======
+                                    header('location:'.SITEURL.'admin/manage-admin.php');   
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
                                 }
                                 else
                                 {
@@ -109,7 +113,11 @@
                                      //REdirect to Manage Admin Page with Error Message
                                      $_SESSION['change-pwd'] = "<div class='error'>Failed to changed Password. </div>";
                                      //Redirect the User
+<<<<<<< HEAD
                                     header('location:'.SITEURL.'manage-admin.php'); 
+=======
+                                    header('location:'.SITEURL.'admin/manage-admin.php'); 
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
                                 }
                         }
                         else
@@ -118,7 +126,11 @@
                             //REdirect to Manage Admin Page with Error Message
                             $_SESSION['pwd-not-match'] = "<div class='error'>Password Did not Patch. </div>";
                             //Redirect the User
+<<<<<<< HEAD
                             header('location:'.SITEURL.'manage-admin.php');
+=======
+                            header('location:'.SITEURL.'admin/manage-admin.php');
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
 
                         }
                      }
@@ -127,7 +139,11 @@
                         //user Does not Exist Set Message and REdirect
                         $_SESSION['user-not-found'] = "<div class='error'>User Not Found, </div>";
                         //Redirect the User
+<<<<<<< HEAD
                         header('location:'.SITEURL.'manage-admin.php');
+=======
+                        header('location:'.SITEURL.'admin/manage-admin.php');
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
                     }
                  }
                         //3. CHeck Whether the New Password and Confirm Password Match or not

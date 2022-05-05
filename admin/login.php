@@ -69,7 +69,11 @@
             $_SESSION['user'] = $username; //Check wheter the user is logged in or not and logout will unset it
             
             //Redirect to HOME PAGE/dashboard
+<<<<<<< HEAD
             header('location:'.SITEURL.'index.php');
+=======
+            header('location:'.SITEURL.'admin/');
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
         }  
         else
         {

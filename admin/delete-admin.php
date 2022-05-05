@@ -19,7 +19,11 @@
       //create SEssion Variable to Display Message
       $_SESSION['delete'] = "<div class='success'>Admin eliminado exitosamente.</div>";
       //Redirect to Manage Admin Page
+<<<<<<< HEAD
       header('location:'.SITEURL.'manage-admin.php');
+=======
+      header('location:'.SITEURL.'admin/manage-admin.php');
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
     }
     else
     {
@@ -27,7 +31,11 @@
       //echo "Failed to Delete Admin";
 
       $_SESSION['delete'] = "<div class='error'>Error al eliminar admin.</div>";
+<<<<<<< HEAD
       header('location:'.SITEURL.'manage-admin.php');
+=======
+      header('location:'.SITEURL.'admin/manage-admin.php');
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
       //3. Redirect to Manage Admin page with message (success/error)
     }
    ?>

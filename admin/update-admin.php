@@ -33,7 +33,11 @@
                 else
                 {
                     //Redirect to Manage Admin PAge
+<<<<<<< HEAD
                     header('location:'.SITEURL.'manage-admin.php');
+=======
+                    header('location:'.SITEURL.'admin/manage-admin.php');
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
                 }
         }
             ?>
@@ -94,7 +98,11 @@
             //Querry executed and admin updated
             $_SESSION['update'] = "<div class='success'>Admin actualizado exitosamente.</div>";
             //redirect to manage admin page
+<<<<<<< HEAD
             header('location:'.SITEURL.'manage-admin.php');
+=======
+            header('location:'.SITEURL.'admin/manage-admin.php');
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
 
         }
         else
@@ -102,7 +110,11 @@
             //failed to update admin
             $_SESSION['update'] = "<div class='error'>Error al actualizar admin.</div>";
             //redirect to manage admin page
+<<<<<<< HEAD
             header('location:'.SITEURL.'manage-admin.php');
+=======
+            header('location:'.SITEURL.'admin/manage-admin.php');
+>>>>>>> 54577143f8a79633e6eba22431a33e16f512e9c1
         }
 
     }
