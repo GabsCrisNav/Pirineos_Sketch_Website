@@ -1,0 +1,606 @@
+/*Responsive styles when the screen reaches 980px, works better for mobiles
+Optimize for medium devices, from 450px to 980px
+*/
+@media only screen and (max-width:980px){
+  /*Adjust the header container*/
+  .header {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  /*Adjust the search header*/
+  .busqueda_header{
+    height: 5vh;
+    width: 100%;
+    background-color: #009538;
+    padding: 1% 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  /*Ajust the call cantianer*/
+  .call_text_container {
+    padding: 0.5% 2.5%;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 85%;
+    font-size: 9px;
+  }
+
+    /*Adlust the search bar*/
+  .bloque_barra {
+    width: 69%;
+    padding: 6px 0;
+    text-align: center;
+    margin-left: 12%;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*MENU*/
+
+  /*Disapears the original menu*/
+  .bloque_menu {
+    display: none;
+  }
+
+  /*Adjust the logo size container*/
+  .bloque_logo{
+    max-width: 60%;
+    padding-left: 6%;
+  }
+
+  /*makes visible the responsive menu*/
+  .menu_b{
+    display: block;
+    width: 15%;
+    padding: 0 0 2px 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+  }
+
+  /*Adjust the logo image size*/
+  .logo_header{
+    width: 40%;
+    display: block;
+    margin-left: 22%;
+    margin-right: auto;
+  }
+
+  .nav-m{
+    position: absolute;
+    width: 100%;
+    margin-top: -3vH;
+    justify-content: center;
+    display: flex;
+  }
+
+  .m-btn{
+    border: 2px solid green;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 17vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-auto div{
+    border: 2px solid grey;
+    padding: 3px;
+    border-radius: 5px;
+    transition: 1s;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*Banner*/
+
+  .bloque_slider{
+    max-width: 100%;
+    height: 20vH;
+  }
+
+  .slider_img{
+    height: 20vH;
+    width: 20%;
+    transition: 2s;
+  }
+
+  .slider_img img{
+    width: 100%;
+    height: 20vH;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*Footer*/
+
+  /*Adjust footer tittles*/
+  .titulos_footer {
+    font-size: 10px;
+    text-align: left;
+  }
+
+  /*Adjust footer text*/
+  .texto_footer {
+    font-size: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+  }
+
+/*----------------------------------------------------------------------------*/
+/*                                     INDEX                                  */
+/*----------------------------------------------------------------------------*/
+/*Ajust the allies block*/
+.bloque_aliados{
+  height: 40vH;
+  width: 100%;
+  display: flex;
+  background-color: #009538;
+}
+
+.texto_aliados{
+  width: 100%;
+}
+
+.titulo_aliadosyquienes{
+  font-size: 12pt;
+  margin-right:8%
+}
+
+/*Adjust the slideshow container*/
+.slideshow-container{
+    width: 100%;
+  }
+
+.video{
+    width:50%;
+    height:25vH;
+  }
+
+  /*Adjust the text technology container*/
+  .tech_text_container{
+    max-width: 100%
+  }
+
+
+  /*Disapears the tecnology block for computers*/
+  .bloque_tecnologia{
+    display: none;
+  }
+
+
+  /*Change the color of the background of the text*/
+  .tech_text_box{
+    background-color: #ffffff91;
+    width: 100%;
+    text-align: center;
+    height: 90%;
+  }
+
+  /*Change size of the tittle conatiner of technology*/
+  .titulo_tecnologia{
+    font-size: 100%;
+    padding: 0 4%;
+    padding-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  /*Change the underline of the tittles*/
+  .line_div_horizontal_tec {
+    height: 1%;
+    width: 10%;
+    border-bottom: 4px solid #fdcc00;
+    padding: 0 0 0 0;
+    margin-left: 6%;
+  }
+
+  /*Change the size of the tecnology text*/
+  .texto_tecnologia{
+    font-size: 71%;
+    padding: 1%;
+    text-align: justify;
+  }
+
+  /*Disapears the image of tecnology*/
+  .imagen_tecnologia_con{
+    display: none;
+  }
+
+  .link_tec{
+    font-size: 10pt;
+  }
+
+  /*Appears the block for maobile devices*/
+  .bloque_tecnologia2{
+    display: flex;
+    height: 33vh;
+  }
+
+  /*Disapear the How we are block for computers*/
+  .bloque_Quienes{
+    display: none;
+  }
+
+  /*Display the How we are block for mobile devices*/
+  .bloque_Quienes2{
+    display: flex;
+    height: 30vh;
+  }
+
+  /*Ajust the footer container*/
+  .bloque_footer {
+    height: 22vh;
+    background-color: #194629;
+    font-family: verdana;
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+/*----------------------------------------------------------------------------*/
+/*                            Páginas Productos                               */
+/*----------------------------------------------------------------------------*/
+.scroll{
+  display:none;
+}
+
+.bloque_general_productos{
+  width:100%;
+  height: 100%;
+  background-color:#f4f4f4;
+}
+
+
+.bloque_presentacion_productos{
+  display:none;
+}
+
+
+.bloque_presentacion_productos2{
+  display: flex;
+  width: auto;
+  height: auto;
+  margin-left:2%;
+  padding:5%;
+  background-color: #f4f4f4;
+  text-align: justify;
+  margin-bottom: 2vH;
+  color:#285D39;
+
+
+}
+
+/*Evita que las descripciones queden a los extremos del div ".bloque_presentacion_productos"*/
+.texto_producto{
+  width: 97%;
+  text-align: justify;
+}
+
+.texto_producto2{
+  font-size:16pt;
+  text-align: justify;
+}
+.texto_descarga{
+  font-size:12pt;
+}
+
+.list_brand{
+  margin-left:5%;
+  font-weight: bold;
+  padding:5%;
+  color: #285d39;
+}
+
+/*The style for the words in the related product section*/
+.rec_prod_style{
+  color: "White";
+  size: 4pt;
+}
+
+/*The style for the images in the related product section*/
+.rec_prod_image{
+  width: 20%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*                                 CONTACTO                                   */
+/*----------------------------------------------------------------------------*/
+
+.bloque_general_contacto2{
+  display:flex;
+  height: auto;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 1vh;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.bloque_general_contacto{
+  display:none;
+}
+
+.bloque_mapa_contacto{
+  margin: auto;
+  width: 90%;
+}
+
+.bloque_distribuidores{
+  display:none;
+}
+
+.guide{
+  width:100%;
+  height:auto;
+}
+
+.titulos_contacto{
+  color: #519C45;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  width: 100%;
+}
+
+.texto_contacto{
+  font-size: 12pt;
+  width:100%
+  padding:0.5%;
+}
+
+#texto_campos_formulario{
+  color: red;
+  font-size: 11px;
+}
+
+.bloque_formulario{
+  display:none;
+}
+
+.bloque_formulario2{
+  display:flex;
+  width: 100%;
+  height:auto;
+  padding:2%;
+}
+
+
+.formulario{
+  width: 80%;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.contacto_input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: green;
+  border-width: 2.5px;
+}
+
+.contacto_input:hover{
+  border-color: red;
+}
+
+#contacto_textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton_formulario{
+  font-family: verdana;
+  background: yellow;
+  color: brown;
+  border-color: yellowgreen;
+  font-size: 20px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#boton_formulario:hover{
+  cursor: pointer;
+}
+
+#hr_formulario{
+  height: 5px;
+  margin-left: 10px;
+  background-color: #009538;
+  border-radius: 5px;
+}
+
+.form_block{
+  margin-left:12%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*                                RECETARIO                                   */
+/*----------------------------------------------------------------------------*/
+.recetario_gen_box{
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  height: auto;
+  margin:  auto;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  justify-content: center;
+}
+
+.recetario_title{
+  width: 100%;
+  padding:2%;
+  text-align: center;
+}
+
+.receta_box{
+  align-content: center;
+  height:auto;
+  width: auto;
+  padding:2%;
+}
+
+.img_receta{
+  height:100%;
+  width: 95%;
+}
+
+/*----------------------------------------------------------------------------*/
+/*                                NUESTROS PILARES                            */
+/*----------------------------------------------------------------------------*/
+.text_tittle{
+  font-size:16pt;
+}
+
+.tittle2{
+    font-size:14pt;
+}
+/*Bloque de division para elementos grid*/
+.division_space{
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+
+}
+.equipos1{
+  display: none;
+}
+
+.equipos2{
+  display: flex;
+}
+
+/*Grid de 4 elementos*/
+.grid_quarter{
+  width: 21%;
+  padding:0.5%;
+  height: 100%;
+  font-size: 12pt;
+  text-align: justify;
+  font-size:10pt;
+}
+
+/*grid de 2 elementos*/
+.grid_half{
+  float: left;
+  width: 41%;
+  padding:2%;
+  font-size: 12pt;
+  text-align: justify;
+  margin-left:2%;
+}
+
+
+/*Todo texto blanco*/
+.text_white{
+  float left;
+  color:white;
+  width: 100%;
+  height:auto;
+  padding:5px;
+  font-size: 12pt;
+  text-align: justify;
+  margin-bottom:10px;
+  background-color:#009538;
+}
+
+/*Todo texto negro*/
+.text_black{
+  padding:5px;
+  font-size: 12pt;
+  text-align: justify;
+  margin-bottom:5px;
+}
+
+/*sub-titulo*/
+.subtitle{
+  font-weight:bold;
+  text-align: center;
+}
+
+.text_nuestra{
+height:auto;
+text-align:justify;
+font-size:11pt;
+}
+
+/*Imagenes de la pagina*/
+.page_images{
+  padding:15px;
+
+}
+
+.nuestra1{
+  display:none;
+}
+
+.nuestra2{
+  display:flex;
+}
+
+/*----------------------------------------------------------------------------*/
+/*                                QUIENES SOMOS                               */
+/*----------------------------------------------------------------------------*/
+/*estiliza el bloque donde se guarda la informacion de un dato en la linea de tiempo */
+.container {
+  flex-direction: column;
+  justify-content: flex-end;
+  height: auto;
+  width: 38%;
+  padding: 2%;
+  display: inline-block;
+  background-color: #009538;
+  font-family: verdana;
+  text-align: justify;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  font-size:8pt;
+}
+
+.container img{
+  width: 80%;
+  height: 20vH;
+  padding:5%;
+  border-radius: 40px;
+  align-content:center;
+}
+
+
+.bloque_crono{
+  display:none;
+}
+
+.bloque_crono2{
+  display:none;
+}
+
+.bloque_crono3{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+}
