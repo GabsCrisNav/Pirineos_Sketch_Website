@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <title>Derivados de Trigo</title>
   <link href="images/logo_pirineos.png" rel="shortcut icon" type="image/png">
-  <link rel="stylesheet" type="text/css" href="css/Productos.css">
-  <link href="css/home.css" rel="stylesheet" type="text/css">
+  <link href="css/allstyle.css" rel="stylesheet" type="text/css">
+  <link href="css/allstyle_responsive.css" rel="stylesheet" type="text/css">
   <script src="js/index_s.js" type="text/JavaScript"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
