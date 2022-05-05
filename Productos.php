@@ -28,9 +28,10 @@
             <input type="submit"  value="Submit" onClick="search_input(this.form)"hidden >
           </div>
           <div class="call_text_container"><span class = "y_text_call">Llama ahora: </span><span class = "w_text_call">01 800 464 9600</span></div>
-          <a class="fa fa-facebook-square" href="https://www.facebook.com/impulsopirineos/"></a>
+          <a href="https://www.facebook.com/pastaslamoderna" target="_blank" class="fa fa-facebook-square"></a>
+          <a href="https://www.instagram.com/lamoderna_mx/?hl=es" target="_blank" class="fa fa-instagram"></a>
+          <a href="https://www.pinterest.com.mx/nutriendotuvida/_created/" target="_blank" class="fa fa-pinterest"></a>
   </form>
-
   <!-- Menu y Logo-->
   <div class="header"><!--align="center"-->
     <div class = "menu_b">
