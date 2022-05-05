@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+	
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="harinas_de_trigo.php">Harinas de Trigo</a>
@@ -18,7 +19,7 @@
     <a href="derivados_de_trigo.php">Derivados de trigo</a>
     <a href="Productos_RendiMix.php">Mejorantes RendiMix®</a>
     <a href="Contacto.html">Contacto</a>
-</div>
+  </div>
 
   <!-- Barra de bússqeda e iconos-->
   <form class="busqueda_header" method="GET" >
@@ -28,7 +29,9 @@
             <input type="submit"  value="Submit" onClick="search_input(this.form)"hidden >
           </div>
           <div class="call_text_container"><span class = "y_text_call">Llama ahora: </span><span class = "w_text_call">01 800 464 9600</span></div>
-          <a class="fa fa-facebook-square" href="https://www.facebook.com/impulsopirineos/"></a>
+          <a href="https://www.facebook.com/pastaslamoderna" target="_blank" class="fa fa-facebook-square"></a>
+          <a href="https://www.instagram.com/lamoderna_mx/?hl=es" target="_blank" class="fa fa-instagram"></a>
+          <a href="https://www.pinterest.com.mx/nutriendotuvida/_created/" target="_blank" class="fa fa-pinterest"></a>
   </form>
 
   <!-- Menu y Logo-->
