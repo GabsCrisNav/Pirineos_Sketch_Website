@@ -829,36 +829,67 @@ a#pdf_productos_relacionados:hover{
 /*----------------------------------------------------------------------------*/
 /*                                RECETARIO                                   */
 /*----------------------------------------------------------------------------*/
-.recetario_gen_box{
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
-  height: auto;
-  margin:  auto;
-  margin-bottom: 1vh;
-  margin-top: 1vh;
-  background-color: rgba(255, 255, 255, 0.7);
-  position: relative;
-  justify-content: center;
+/*Bloque contenedor de preguntas frecuentes*/
+.bloque_faq{
+	width: 100%;
+	height: auto;
+	background-color:#F4F4F4 ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-bottom: 4vh;
 }
 
-.recetario_title{
-  width: 100%;
-  margin-top:2%;
-  text-align: center;
+.titulo_faq{
+	width: 100%;
+	height: 10vh;
+  padding:2%;
+	background-color: #009538;
 }
 
-.receta_box{
-  align-content: center;
-  height:auto;
-  width: auto;
-  padding:4%;
+.container_faq{
+	width: 47%;
+  margin-left:2%;
+
 }
 
-.img_receta{
-  height:100%;
-  width: 100%;
+.container_faq p{
+	text-align: justify;
+	font-family: verdana;
+	font-weight: bold;
+  font-size: 0.9em;
+  color: white;
 }
+
+/*Estilización de la etiqueta details dentro del .bloque_faq*/
+.bloque_faq details{
+	background: #009538;
+	padding: .5rem;
+	border-radius: 10px;
+	margin: .5rem;
+	cursor: pointer;
+}
+
+/*Elimina el signo original de la etiqueta summary*/
+.bloque_faq summary{
+	color:  #fcb934;
+	font-family: verdana;
+	font-weight: bold;
+  	font-size: 1.2em;
+	list-style: none;
+}
+
+/*Cambia el signo de la etiqueta summary*/
+.bloque_faq summary::before{
+	content: '+';
+	padding-right: 1rem;
+}
+
+/*Cambia el signo cuando se despliega el summary*/
+.bloque_faq details[open] summary::before{
+	content: '-';
+}
+
 /*----------------------------------------------------------------------------*/
 /*                                    FAQ                                     */
 /*----------------------------------------------------------------------------*/
