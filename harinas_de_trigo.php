@@ -239,33 +239,46 @@
     </div>
 
 
-    <div class="scroll" id = 'scroll'>
+  <div class="scroll">
       <div id="pdf_producto_marco_arriba" class="pdf_producto">
-        <p class="titulos_scroll_productos"><b>Descarga el PDF de Bakery Mix<sup>®</sup></b></p>
-        <a href="archives/Bakery_Mix.pdf" download="Bakery_Mix.pdf" target="_blank">
-          <p class="texto_descarga"> < Descargar PDF</font></p>
+        <p class="titulos_scroll_productos"><b>Catálogo de Productos</b></p><br><br>
+        <a href="PDF/catalogo_productos.pdf" download="PDF/catalogo_productos.pdf" target="_blank">
+          <p class="texto_descarga">< Descargar PDF</p>
+        </a>
       </div>
       <div class="pdf_producto">
-        <p class="titulos_scroll_productos"><b>Descarga nuestras mejores recetas con Bakery Mix<sup>®</sup></b></p>
-        <a href="archives/recetas_BakeryMix.pdf" download="recetas_BakeryMix.pdf" target="_blank">
-          <p class="texto_descarga"><b>< Descargar PDF</b></font></p>
+        <p class="titulos_scroll_productos"><b>Conoce todo sobre nuestras marcas</b></p><br><br>
+        <a href="PDF/Estrella.pdf" download="Estrella.pdf" target="_blank">
+          <p class="texto_descarga">< Estrella del Bajío</p>
+        </a>
+        <a href="PDF/Rancherita.pdf" download="Rancherita.pdf" target="_blank">
+          <p class="texto_descarga">< Rancherita</p>
+        </a>
+        <a href="PDF/Rendidora.pdf" download="Rendidora.pdf" target="_blank">
+          <p class="texto_descarga">< Rendidora</p>
+        </a>
+        <a href="PDF/Trigarina.pdf" download="Trigarina.pdf" target="_blank">
+          <p class="texto_descarga">< Trigarina</p>
+        </a>
+        <a href="PDF/PIRINEOS.pdf" download="PIRINEOS.pdf" target="_blank">
+          <p class="texto_descarga">< Pirineos</p>
+        </a>
       </div>
       <div class="pdf_producto">
-        <p class="titulos_scroll_productos"><b>Productos relacionados:</b></p>
-        <div class="div_productos_relacionados">
-          <a class="rec_prod_style" id="pdf_productos_relacionados" href="Productos.html"><b>Trigarina<sup>®</sup></b></font></a>
+        <p class="titulos_scroll_productos"style="margin-top:20%"><b>Productos relacionados:</b></p>
+        <div class="div_productos_relacionados" style="margin-top:2%">
+          <a class="rec_prod_style" id="pdf_productos_relacionados" href="harinas_de_trigo.html"><b>Trigarina<sup>®</sup></b></font></a><br>
           <img class="rec_prod_image" src="images/producto_relacionado_1.jpg">
         </div>
-        <div class="div_productos_relacionados">
-          <a class="rec_prod_style" id="pdf_productos_relacionados" href="Productos.html"><b>RendiMix<sup>®</sup></b></font></a>
+        <div class="div_productos_relacionados" style="margin-top:2%">
+          <a class="rec_prod_style" id="pdf_productos_relacionados" href="Productos_RendiMix.html"><b>RendiMix<sup>®</sup></b></font></a><br>
           <img class="rec_prod_image" src="images/producto_relacionado_2.jpg">
         </div>
       </div>
       <div class="compartir_scroll_productos">
-        <p class="titulos_scroll_productos"><b>Compartir</b></p>
-        <div class="icon_scroll">
-          <a href="https://www.facebook.com/impulsopirineos/" target="_blank"><img src="images/facebook.png"></a>
-        </div>
+        <p class="titulos_scroll_productos"><b>Compartir</b></p><br>
+        <a href="https://www.facebook.com/pastaslamoderna" target="_blank"><img src="images/facebook.png"></a>
+      </div>
     </div>
 
   </div>
