@@ -220,10 +220,9 @@
         </div>
       </div>
       <div class="compartir_scroll_productos">
-        <p class="titulos_scroll_productos"><b>Compartir</b></p>
-        <div class="icon_scroll">
-          <a href="https://www.facebook.com/impulsopirineos/" target="_blank"><img src="images/facebook.png"></a>
-        </div>
+        <p class="titulos_scroll_productos"><b>Compartir</b></p><br>
+        <a href="https://www.facebook.com/pastaslamoderna" target="_blank"><img src="images/facebook.png"></a>
+      </div>
     </div>
 
   </div>
