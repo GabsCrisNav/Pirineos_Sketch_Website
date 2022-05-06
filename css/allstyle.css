@@ -1105,7 +1105,7 @@ a#pdf_productos_relacionados:hover{
   justify-content: flex-end;
   align-items: center;
   margin-top: 40px;
-  height: 55vh;
+  height: 60vh;
   width: 22.5%;
   padding: 2em;
   margin: 1em;
@@ -1116,7 +1116,6 @@ a#pdf_productos_relacionados:hover{
   text-align: justify;
   border-radius: 20px;
   color: white;
-  font-weight: bold;
 }
 
 .bloque_crono{
