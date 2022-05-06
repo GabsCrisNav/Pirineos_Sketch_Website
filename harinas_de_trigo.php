@@ -278,7 +278,7 @@
         </a>
       </div>
       <div class="pdf_producto">
-        <p class="titulos_scroll_productos"style="margin-top:20%"><b>Productos relacionados:</b></p>
+        <p class="titulos_scroll_productos"><b>Productos relacionados:</b></p>
         <div class="div_productos_relacionados" style="margin-top:2%">
           <a class="rec_prod_style" id="pdf_productos_relacionados" href="harinas_de_trigo.html"><b>Trigarina<sup>®</sup></b></font></a><br>
           <img class="rec_prod_image" src="images/producto_relacionado_1.jpg">
