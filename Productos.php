@@ -185,7 +185,7 @@
     </div>
     </div>
 
-    <div class="scroll">
+        <div class="scroll">
       <div id="pdf_producto_marco_arriba" class="pdf_producto">
         <p class="titulos_scroll_productos"><b>Descarga el PDF de BakeryMix<sup>®</sup></b></p><br><br>
         <a href="PDF/BakeryMix.pdf" download="BakeryMix.pdf" target="_blank">
@@ -210,10 +210,9 @@
         </div>
       </div>
       <div class="compartir_scroll_productos">
-        <p class="titulos_scroll_productos"><b>Compartir</b></p>
-        <div class="icon_scroll">
-          <a href="https://www.facebook.com/impulsopirineos/" target="_blank"><img src="images/facebook.png"></a>
-        </div>
+        <p class="titulos_scroll_productos"><b>Compartir</b></p><br>
+        <a href="https://www.facebook.com/pastaslamoderna" target="_blank"><img src="images/facebook.png"></a>
+      </div>
     </div>
     </div>
 
