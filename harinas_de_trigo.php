@@ -226,14 +226,27 @@
 
       ?>
       <div width="30%" >
-        <p class="subtitle" style="font-size:14pt; margin-top:5%">Descarga el PDF de Bakery Mix<sup>®</sup></p>
-        <a href="archives/Bakery_Mix.pdf" download="Bakery_Mix.pdf" target="_blank">
-          <p class="texto_descarga">< Descargar PDF</font></p>
+        <p class="subtitle" style="font-size:14pt; margin-top:5%"><b>Catálogo de Productos</b></p>
+        <a href="PDF/catalogo_productos.pdf" download="PDF/catalogo_productos.pdf" target="_blank">
+          <p class="texto_descarga">< Descargar PDF</p></a>
       </div>
       <div width="30%" >
-        <p class="subtitle" style="font-size:14pt; margin-top:3%">Descarga nuestras mejores recetas con Bakery Mix<sup>®</sup></p>
-        <a href="archives/Bakery_Mix.pdf" download="recetas_BakeryMix.pdf" target="_blank">
-          <p class="texto_descarga">< Descargar PDF</font></p>
+        <p class="subtitle" style="font-size:14pt; margin-top:3%"><b>Conoce todo sobre nuestras marcas</b></p>
+        <a href="PDF/Estrella.pdf" download="Estrella.pdf" target="_blank">
+          <p class="texto_descarga">< Estrella del Bajío</p>
+        </a>
+        <a href="PDF/Rancherita.pdf" download="Rancherita.pdf" target="_blank">
+          <p class="texto_descarga">< Rancherita</p>
+        </a>
+        <a href="PDF/Rendidora.pdf" download="Rendidora.pdf" target="_blank">
+          <p class="texto_descarga">< Rendidora</p>
+        </a>
+        <a href="PDF/Trigarina.pdf" download="Trigarina.pdf" target="_blank">
+          <p class="texto_descarga">< Trigarina</p>
+        </a>
+        <a href="PDF/PIRINEOS.pdf" download="PIRINEOS.pdf" target="_blank">
+          <p class="texto_descarga">< Pirineos</p>
+        </a>
       </div>
     </div>
     </div>
