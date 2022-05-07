@@ -235,7 +235,6 @@
 			<div class="bloque_redes">
 				<h3 class="titulos_footer">Descargas PDF</h3>
 				<p><a href="PDF/catalogo_productos.pdf" class="texto_footer">Descarga nuestro catálogo</p>
-				<p><a href="PDF/" class="texto_footer">FAQ</a></p>
 			</div>
 			<div class="bloque_bolsa">
 				<h3 class="titulos_footer">Bolsa de Trabajo</h3>
@@ -246,6 +245,6 @@
 				</form>
 			</div>
 		</div>
-  
+
 </body>
 </html>

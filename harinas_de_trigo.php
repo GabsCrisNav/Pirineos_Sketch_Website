@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	
+
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="harinas_de_trigo.php">Harinas de Trigo</a>
@@ -315,14 +315,13 @@
 			<div class="bloque_redes">
 				<h3 class="titulos_footer">Descargas PDF</h3>
 				<p><a href="PDF/catalogo_productos.pdf" class="texto_footer">Descarga nuestro catálogo</p>
-				<p><a href="PDF/" class="texto_footer">FAQ</a></p>
 			</div>
 			<div class="bloque_bolsa">
 				<h3 class="titulos_footer">Bolsa de Trabajo</h3>
 				<p><a href="Contacto.html"class="texto_footer">Intregate a nuestro equipo </a></p>
 				<h3 class="titulos_footer" align="right">Siguenos en:</h3>
 				<form action="#">
-						
+
 						<a href="https://www.facebook.com/pastaslamoderna" target="_blank" class="fa fa-facebook-square"></a>
 				</form>
 			</div>

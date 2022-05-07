@@ -78,52 +78,54 @@
     			<p class="texto_contacto">+52 (464) 642 01 96<br>Sin costo: 01 800 147 4444</p><br><br>
   		</div>
   		<div class="bloque_formulario">
-  			<form class="formulario" action="enviar-prueba.php" method="post">
-  				<br><br><p class="titulos_contacto"><b>Contáctanos</b></p>
+
+        <form class = "formulario" action="https://formspree.io/f/xyyolgwp" method="POST">
+          <br><br><p class="titulos_contacto"><b>Contáctanos</b></p>
           <div class="guide">
   				<p class="texto_contacto">Para nosotros nos resulta de suma importancia saber tus opiniones, quejas y sugerencias, así como recibir cualuqier otros datos que nos quieras dar</p>
   				<p class="texto_contacto" id="texto_campos_formulario"><b>Los campos con * son necesarios rellenarlos, sin embargo brindarnos la demás información nos facilitará poder contactarnos contigo<b></p>
           </div>
-          <div class="form_block">
-          <select name="motivo" class="contacto_input" required>
-            <option selected disabled id="color_select">Indique el motivo del mensaje*</option>
-            <option value="Contacto">Consulta</option>
-            <option value="Distribuidor">Buscar distribuidores</option>
-            <option value="Trabajo">Bolsa de trabajo</option>
-          </select>
-  				<input type="text" name="nom" placeholder="Nombre(s)*" class="contacto_input" required>
-  				<input type="text" name="surnom" placeholder="Apellido(s)*" class="contacto_input" required>
-  				<input type="text" name="tel" placeholder="Teléfono" class="contacto_input">
-  				<input type="text" name="correo" placeholder="Correo elétronico*" class="contacto_input" required>
-  				<textarea name="mensaje" placeholder="Mensaje" class="contacto_input" id="contacto_textarea"></textarea>
-  				<input type="submit" value="Enviar" id="boton_formulario">
-        </div>
+            <div class="form_block">
+           <select name="department"  class="contacto_input" required>
+             <option value="Contacto">Consulta</option>
+             <option value="Distribuidor">Buscar distribuidores</option>
+             <option value="Trabajo">Bolsa de trabajo</option>
+           </select>
+           <input class="contacto_input" name="name" type="text" placeholder="Nombre(s)*" required/>
+           <input class="contacto_input" name="lastname" type="text" placeholder="Apellido(s)*" required/>
+           <input class="contacto_input" name="phone_num" type="tel" placeholder="Teléfono"/>
+           <input class="contacto_input" name="email" type="email" placeholder="Correo elétronico*" required/>
+           <textarea class="contacto_input" id="contacto_textarea" name="message" type="text" placeholder="Mensaje"/></textarea>
+           <button type="submit" id="boton_formulario">Enviar</button>
+           </div>
         </form>
+
+
   		</div>
   	</div>
 
     <div align="center" class="bloque_general_contacto2">
   		<div class="bloque_formulario2">
-  			<form class="formulario" action="enviar-prueba.php" method="post">
-  				<br><br><p class="titulos_contacto"><b>Contáctanos</b></p>
+        <form class = "formulario" action="https://formspree.io/f/xyyolgwp" method="POST">
+          <br><br><p class="titulos_contacto"><b>Contáctanos</b></p>
           <div class="guide">
   				<p class="texto_contacto">Para nosotros nos resulta de suma importancia saber tus opiniones, quejas y sugerencias, así como recibir cualuqier otros datos que nos quieras dar</p>
   				<p class="texto_contacto" id="texto_campos_formulario"><b>Los campos con * son necesarios rellenarlos, sin embargo brindarnos la demás información nos facilitará poder contactarnos contigo<b></p>
           </div>
-          <div class="form_block">
-          <select name="motivo" class="contacto_input" required>
-            <option selected disabled id="color_select">Indique el motivo del mensaje*</option>
-            <option value="Contacto">Consulta</option>
-            <option value="Distribuidor">Buscar distribuidores</option>
-            <option value="Trabajo">Bolsa de trabajo</option>
-          </select>
-  				<input type="text" name="nom" placeholder="Nombre(s)*" class="contacto_input" required>
-  				<input type="text" name="surnom" placeholder="Apellido(s)*" class="contacto_input" required>
-  				<input type="text" name="tel" placeholder="Teléfono" class="contacto_input">
-  				<input type="text" name="correo" placeholder="Correo elétronico*" class="contacto_input" required>
-  				<textarea name="mensaje" placeholder="Mensaje" class="contacto_input" id="contacto_textarea"></textarea>
-  				<input type="submit" value="Enviar" id="boton_formulario">
-  			</form>
+            <div class="form_block">
+           <select name="department"  class="contacto_input" required>
+             <option value="Contacto">Consulta</option>
+             <option value="Distribuidor">Buscar distribuidores</option>
+             <option value="Trabajo">Bolsa de trabajo</option>
+           </select>
+           <input class="contacto_input" name="name" type="text" placeholder="Nombre(s)*" required/>
+           <input class="contacto_input" name="lastname" type="text" placeholder="Apellido(s)*" required/>
+           <input class="contacto_input" name="phone_num" type="tel" placeholder="Teléfono"/>
+           <input class="contacto_input" name="email" type="email" placeholder="Correo elétronico*" required/>
+           <textarea class="contacto_input" id="contacto_textarea" name="message" type="text" placeholder="Mensaje"/></textarea>
+           <button type="submit" id="boton_formulario">Enviar</button>
+           </div>
+        </form>
       </div>
          <hr id="hr_formulario" style="margin-top:10%">
     			<p class="titulos_contacto" style="margin-top:10%"><b>Direcciones</b></p>
