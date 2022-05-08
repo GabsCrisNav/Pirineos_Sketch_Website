@@ -25,6 +25,18 @@ p{
   text-align: justify;
   font-size: 13pt;
 }
+
+.button_thermonox{
+  margin-left: 45%;
+  width: 30%;
+  background-color: #194629;
+  padding: 10px;
+  font-weight: bold;
+  font-family: verdana;
+  color: white;
+  text-decoration: none;
+}
+
 /*----------------------------------------------------------------------------*/
 /*Search bar*/
 /*Search header*/

@@ -633,5 +633,9 @@ font-size:11pt;
   flex-wrap: wrap;
 }
 
+.button_thermonox{
+    margin-left: 31%;
+    padding: 10px;
+}
 
 }
